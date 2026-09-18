@@ -1,0 +1,67 @@
+[
+  {
+    "company": "Pinterest",
+    "people": [
+      { "first_name": "Jose", "last_name": "Lopez", "title": "Software Engineer", "email": "joselopez@pinterest.com" },
+      { "first_name": "Priyanka", "last_name": "Taneja", "title": "Software Engineer", "email": "ptaneja@pinterest.com" }
+    ]
+  },
+  { "company": "Nasdaq", "people": [ { "first_name": "Marc", "last_name": "Murphy", "title": "Senior Vice President", "email": "marc.murphy@nasdaq.com" } ] },
+  {
+    "company": "Cohere",
+    "people": [
+      { "first_name": "John", "last_name": "Jordan", "title": "Member of Technical Staff", "email": "john@cohere.com" },
+      { "first_name": "Autumn", "last_name": "Moulder", "title": "Senior VP of Engineering", "email": "autumn@cohere.com" }
+    ]
+  },
+  { "company": "LlamaIndex", "people": [ { "first_name": "Jerry", "last_name": "Liu", "title": "Co-Founder & CEO", "email": "jerry@llamaindex.ai" } ] },
+  { "company": "Reflection AI", "people": [ { "first_name": "Joe", "last_name": "Spisak", "title": "VP of Product & Head of Open Source", "email": "joseph@reflection.ai" } ] },
+  { "company": "VAST Data", "people": [ { "first_name": "Alon", "last_name": "Horev", "title": "Co-Founder & CTO", "email": "alon.horev@vastdata.com" } ] },
+  {
+    "company": "Cognition",
+    "people": [
+      { "first_name": "Silas", "last_name": "Alberti", "title": "SVP Research & Founding Team", "email": "silas@cognition.ai" },
+      { "first_name": "Carlo", "last_name": "Baronio", "title": "Research Engineer", "email": "carlo@cognition.ai" }
+    ]
+  },
+  { "company": "World Labs", "people": [ { "first_name": "Fei-Fei", "last_name": "Li", "title": "Co-Founder and CEO", "email": "feifeili@worldlabs.ai" } ] },
+  { "company": "Willow", "people": [ { "first_name": "Lawrence", "last_name": "Liu", "title": "Co-Founder & CTO", "email": "lawrence@willowvoice.com" } ] },
+  { "company": "Boltz", "people": [ { "first_name": "Jeremy", "last_name": "Wohlwend", "title": "Co-Founder", "email": "jeremy@boltz.bio" } ] },
+  { "company": "Crowdstrike", "people": [ { "first_name": "Bartley", "last_name": "Richardson", "title": "Chief of AI", "email": "bartley.richardson@crowdstrike.com" } ] },
+  { "company": "Cline", "people": [ { "first_name": "Renee", "last_name": "Huang", "title": "CEO", "email": "renee@cline.bot" } ] },
+  { "company": "IBM", "people": [ { "first_name": "Brian", "last_name": "Belgodere", "title": "Senior Technical Staff Member - AI / ML Systems", "email": "brian.belgodere@ibm.com" } ] },
+  { "company": "Liquid AI", "people": [ { "first_name": "Jeffrey", "last_name": "Li", "title": "COO (Head of Product & GTM)", "email": "jeffrey@liquid.ai" } ] },
+  { "company": "Conviction", "people": [ { "first_name": "Sarah", "last_name": "Guo", "title": "Founder & Partner", "email": "sguo@conviction.com" } ] },
+  {
+    "company": "CoreWeave",
+    "people": [
+      { "first_name": "Shawn", "last_name": "Lewis", "title": "Chief Superintelligence Officer", "email": "slewis@coreweave.com" },
+      { "first_name": "Lukas", "last_name": "Biewald", "title": "SVP, AI Initiatives", "email": "lbiewald@coreweave.com" },
+      { "first_name": "Chen", "last_name": "Goldberg", "title": "EVP, Product & Engineering", "email": "cgoldberg@coreweave.com" },
+      { "first_name": "Peter", "last_name": "Salanki", "title": "Chief Technology Officer", "email": "psalanki@coreweave.com" },
+      { "first_name": "Mike", "last_name": "Intrator", "title": "Chief Executive Officer", "email": "michael.intrator@coreweave.com" },
+      { "first_name": "Gavin", "last_name": "Jackson", "title": "VP & Managing Director EMEA", "email": "gjackson@coreweave.com" },
+      { "first_name": "Jean", "last_name": "English", "title": "Chief Marketing Officer", "email": "jenglish@coreweave.com" },
+      { "first_name": "Jon", "last_name": "Jones", "title": "Chief Revenue Officer", "email": "jjones@coreweave.com" }
+    ]
+  },
+  { "company": "NVIDIA", "people": [ { "first_name": "Ian", "last_name": "Buck", "title": "VP and GM, Hyperscale and HPC", "email": "ibuck@nvidia.com" } ] },
+  { "company": "Genentech", "people": [ { "first_name": "Richard", "last_name": "Bonneau", "title": "VP & Global Head, AI for Drug Discovery", "email": null } ] },
+  { "company": "Parallel Web Systems", "people": [ { "first_name": "Pranay", "last_name": "Reddy Samala", "title": "Member of Technical Staff", "email": "pranay@parallel.ai" } ] },
+  { "company": "Aston Martin Aramco Formula One", "people": [ { "first_name": "Eric", "last_name": "Ernst", "title": "Commercial Technology Ambassador", "email": null } ] },
+  { "company": "Caterpillar", "people": [ { "first_name": "Brandon", "last_name": "Hootman", "title": "VP of Physical AI", "email": "brandon.hootman@cat.com" } ] },
+  { "company": "Grammarly", "people": [ { "first_name": "Christoph", "last_name": "Stüber", "title": "Software Engineer - ML Platform", "email": null } ] },
+  {
+    "company": "Ford Motor Company",
+    "people": [
+      { "first_name": "Ken", "last_name": "Leisenring", "title": "Chief Engineer, Vehicle Propulsion Systems Engineering", "email": "ken.leisenring@autonomic.ai" },
+      { "first_name": "John", "last_name": "Bogema", "title": "Senior Manager - Propulsion CAE and Data", "email": "jbogema@ford.com" }
+    ]
+  },
+  { "company": "Walden Robotics", "people": [ { "first_name": "Adrien", "last_name": "Gaidon", "title": "Co-founder and Chief Strategy Officer", "email": "adrien@waldenrobotics.com" } ] },
+  { "company": "Recursive Superintelligence", "people": [ { "first_name": "Tim", "last_name": "Rocktäschel", "title": "Co-founder", "email": "tim.rocktaschel@ucl.ac.uk" } ] },
+  { "company": "JPMorganChase", "people": [ { "first_name": "Anand", "last_name": "Rajagopalan", "title": "Managing Director - Head of AI Infrastructure Platform", "email": "anand.rajagopalan@jpmorgan.com" } ] },
+  { "company": "Improbability", "people": [ { "first_name": "Lavanya", "last_name": "Shukla", "title": "Managing Partner", "email": "lavanya@improbability.vc" } ] },
+  { "company": "MasterClass", "people": [ { "first_name": "Mandar", "last_name": "Bapaye", "title": "CPO and CTO", "email": "mandar@masterclass.com" } ] },
+  { "company": "Capital One", "people": [ { "first_name": "Maulin", "last_name": "Patel", "title": "Managing VP of Product, AI Platform", "email": "maulin.patel@capitalone.com" } ] }
+]

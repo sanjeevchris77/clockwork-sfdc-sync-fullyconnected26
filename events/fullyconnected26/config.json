@@ -1,0 +1,37 @@
+{
+  "event_name": "Fully Connected 2026",
+  "campaign_ids": [
+    "701TV00000tqakTYAQ",
+    "701TV00000tqd7FYAQ",
+    "701TV00000tqZZtYAM",
+    "701TV00000tqfXGYAY",
+    "701TV00000tqeCzYAI",
+    "701TV00000tqWDsYAM",
+    "701TV00000tqGcAYAU",
+    "701TV00000tqX1qYAE"
+  ],
+  "campaign_ids_comment": "Fully Connected 2026 (San Francisco): parent campaign 701TV00000tqakTYAQ, plus Pre-event outreach (08-07-2026), 3x Booth Scans (09-29, 09-30, 10-01-2026), Wine & Cheese Bar (10-01-2026), Post-event outreach (10-02-2026), Mobile App Notifications (10-01-2026)",
+  "rep_names": [
+    "Sean Coughlin",
+    "Greg Mark",
+    "Abrahem Miya",
+    "Chris Bowen"
+  ],
+  "rep_names_comment": "ASSUMPTION -- reused verbatim from the AI Infra Summit 2026 / RAISE 2026 configs since no Fully Connected-specific rep list was given. Confirm this is the right team before relying on Priority tables tied to individual reps.",
+  "default_opp_amount": 200000,
+  "qualified_stages": [
+    "In Progress (MQL)",
+    "In Progress (SAL)"
+  ],
+  "qualified_stages_comment": "Must match the dashboard's own definition of 'Qualified' -- reused from AI Infra Summit 2026 / RAISE 2026",
+  "event_start_date": "2026-09-29",
+  "event_start_date_comment": "Inferred from the earliest on-site campaign date (Booth Scans | 09-29-2026). Event runs roughly 09-29 through 10-01-2026 (San Francisco); Post-event outreach starts 10-02-2026. Confirm if this isn't the actual first day on-site.",
+  "net_new_lead_source": "Fully Connected 2026 San Francisco",
+  "net_new_lead_source_comment": "ASSUMPTION -- built from the parent campaign's own display name ('Event: Fully Connected 2026 San Francisco'), following the same '<event> <city>' convention AI Infra Summit 2026 used ('AI Infra Summit 2026 Santa Clara'). Must match EXACTLY what reps type into the Lead Source field on Opportunities sourced from this event, or Net New attribution will silently show zero -- confirm the exact string with the team before the event.",
+  "abm_tier_field": "ABM_Tier__c",
+  "attendee_roster_path": "events/fullyconnected26/attendee_roster.json",
+  "attendee_roster_path_comment": "Fully Connected 2026 speaker/attendee roster (29 companies, 40 people), built from the 'FC All Speaker List' sheet of the uploaded Coreweave Speaker List workbook, deduplicated. Cross-referenced live every sync run against an uncapped pull of ALL ABM-tiered Accounts + their open Opportunities -- see build_pre_event_analysis() in sync_salesforce.py. Re-upload and commit a new attendee_roster.json if the attendee list changes.",
+  "output_dir": "data",
+  "no_report_ids_comment": "No ad_hoc_report_id / ae_pipeline_report_ids / contact_report_ids yet -- Fully Connected has no booth this year, so there's no AE-pipeline or contact report to fetch. Pre-Event Analysis (roster cross-ref, no report IDs needed) will populate normally; Post-Event tab will show real data once leads/opportunities tagged to the campaigns above start syncing (none exist yet since the event hasn't happened -- runs 09/29-10/01/2026).",
+  "no_comparison_campaign_comment": "comparison_campaign_id intentionally omitted -- this is Fully Connected's first year, so there's no prior-year campaign to compare against. scripts/sync_salesforce.py was patched to treat this field as optional and skip the year-over-year comparison cleanly when it's absent."
+}

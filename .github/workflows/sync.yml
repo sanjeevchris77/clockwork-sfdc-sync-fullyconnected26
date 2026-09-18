@@ -12,7 +12,7 @@ jobs:
   sync:
     runs-on: ubuntu-latest
     env:
-      EVENT_CONFIG: events/aiinfra26/config.json
+      EVENT_CONFIG: events/fullyconnected26/config.json
     steps:
       - uses: actions/checkout@v4
 

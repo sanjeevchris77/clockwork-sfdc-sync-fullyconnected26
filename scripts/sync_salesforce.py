@@ -69,7 +69,7 @@ QUALIFIED_STAGES = set(CONFIG["qualified_stages"])  # matches dashboard's "Quali
 # apples-to-apples comparison, per user direction -- NOT necessarily the full
 # prior event, which may also have separate Sponsors/Attendees/Speakers/
 # On-Site-Meetings/Virtual-Booth campaigns under the same parent Campaign).
-COMPARISON_CAMPAIGN_ID = CONFIG["comparison_campaign_id"]
+COMPARISON_CAMPAIGN_ID = CONFIG.get("comparison_campaign_id")  # optional: None for a brand-new event with no prior-year campaign to compare against
 
 # Event start date. Used to distinguish an Opportunity that is genuinely NEW
 # because of this event from one that already existed in the pipeline and
@@ -577,7 +577,7 @@ def main():
     # below can correctly exclude EACH year's own attendees (not just 2026's)
     # when looking for "some other Lead already at this company" evidence.
     leads_out = pull_campaign_leads(instance_url, token, CAMPAIGN_IDS)
-    leads_2025 = pull_campaign_leads(instance_url, token, [COMPARISON_CAMPAIGN_ID])
+    leads_2025 = pull_campaign_leads(instance_url, token, [COMPARISON_CAMPAIGN_ID]) if COMPARISON_CAMPAIGN_ID else []
 
     lead_domains = {l["domain"] for l in leads_out if l.get("domain")}
     domains_2025 = {l["domain"] for l in leads_2025 if l.get("domain")}
