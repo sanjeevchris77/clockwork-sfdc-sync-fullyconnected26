@@ -1,93 +1,92 @@
 {
-  "generated_at": "2026-09-18T15:15:46.233785+00:00",
+  "generated_at": "2026-09-18T20:24:15.910160+00:00",
   "summary": {
-    "attending_accounts": 103,
-    "unmatched_companies": 106,
-    "accounts_with_open_opportunity": 12,
-    "open_pipeline_total": 1975000.0,
-    "opportunities_tied_to_named_campaign": 3,
+    "attending_accounts": 20,
+    "unmatched_companies": 9,
+    "accounts_with_open_opportunity": 3,
+    "open_pipeline_total": 950000.0,
+    "opportunities_tied_to_named_campaign": 0,
     "tier_breakdown": {
-      "Tier 2": {
-        "accounts": 25,
-        "accounts_with_opp": 2,
-        "open_pipeline": 150000.0
-      },
       "Tier 1": {
-        "accounts": 44,
-        "accounts_with_opp": 9,
-        "open_pipeline": 1625000.0
-      },
-      "Tier 3": {
-        "accounts": 17,
-        "accounts_with_opp": 1,
-        "open_pipeline": 200000.0
+        "accounts": 8,
+        "accounts_with_opp": 2,
+        "open_pipeline": 750000.0
       },
       "Tier 4": {
-        "accounts": 17,
+        "accounts": 6,
         "accounts_with_opp": 0,
         "open_pipeline": 0
+      },
+      "Tier 2": {
+        "accounts": 6,
+        "accounts_with_opp": 1,
+        "open_pipeline": 200000.0
       }
     },
     "source_attribution": {
       "Sales": {
-        "opportunities": 10,
-        "pipeline": 1400000.0
-      },
-      "Event": {
-        "opportunities": 2,
-        "pipeline": 500000.0
-      },
-      "Executive Referral": {
-        "opportunities": 1,
-        "pipeline": 75000.0
+        "opportunities": 3,
+        "pipeline": 950000.0
       }
     }
   },
   "accounts": [
     {
       "tier": "Tier 1",
-      "company": "Microsoft",
-      "account_sfdc_link": "https://clockworksystems.lightning.force.com/lightning/r/Account/001Kb00001GwitVIAR/view",
-      "owner": "Greg Mark",
-      "gpu_segment": "Hyperscaler",
-      "industry": "Software Development",
-      "target_account": false,
+      "company": "CoreWeave",
+      "account_sfdc_link": "https://clockworksystems.lightning.force.com/lightning/r/Account/001TV000009UCVXYA4/view",
+      "owner": "Sean Coughlin",
+      "gpu_segment": "Neocloud",
+      "industry": "Technology, Information and Internet",
+      "target_account": true,
       "icp_account": "High",
-      "attendee_count": 5,
+      "attendee_count": 8,
       "attendees": [
         {
-          "name": "Donald Thompson",
-          "title": "Distinguished Engineer"
+          "name": "Shawn Lewis",
+          "title": "Chief Superintelligence Officer"
         },
         {
-          "name": "Prashant Ranjan",
-          "title": "Principal Silicon Architect"
+          "name": "Lukas Biewald",
+          "title": "SVP, AI Initiatives"
         },
         {
-          "name": "Kevin Janda",
-          "title": "CVP, Data Centers"
+          "name": "Chen Goldberg",
+          "title": "EVP, Product & Engineering"
         },
         {
-          "name": "Sonia Hingorany",
-          "title": "Senior Director, Azure Cloud Operations + Innovation"
+          "name": "Peter Salanki",
+          "title": "Chief Technology Officer"
         },
         {
-          "name": "Nicolas Rbeiz",
-          "title": "Principal, Data Center Delivery Strategy & Performance"
+          "name": "Mike Intrator",
+          "title": "Chief Executive Officer"
+        },
+        {
+          "name": "Gavin Jackson",
+          "title": "VP & Managing Director EMEA"
+        },
+        {
+          "name": "Jean English",
+          "title": "Chief Marketing Officer"
+        },
+        {
+          "name": "Jon Jones",
+          "title": "Chief Revenue Officer"
         }
       ],
       "has_open_opportunity": true,
       "stage": "03 - Technical Validation",
-      "amount": 300000.0,
-      "best_contact": "Deepak Bansal",
-      "best_contact_title": "General Manager and Corporate Vice President",
-      "best_contact_email": "dbansal@microsoft.com",
+      "amount": 550000.0,
+      "best_contact": "Peter Salanki",
+      "best_contact_title": "Chief Technology Officer",
+      "best_contact_email": "peter@coreweave.com",
       "primary_campaign": null,
       "event_family": null,
-      "first_touch": "2025-12-15T19:33:30.000+0000",
-      "last_touch": "2026-11-09",
-      "opp_id": "006TV00000SnzDVYAZ",
-      "sfdc_link": "https://clockworksystems.my.salesforce.com/lightning/r/Opportunity/006TV00000SnzDVYAZ/view"
+      "first_touch": "2026-01-16T18:54:27.000+0000",
+      "last_touch": "2026-09-10",
+      "opp_id": "006TV00000U4duMYAR",
+      "sfdc_link": "https://clockworksystems.my.salesforce.com/lightning/r/Opportunity/006TV00000U4duMYAR/view"
     },
     {
       "tier": "Tier 1",
@@ -102,7 +101,7 @@
       "attendees": [
         {
           "name": "Ian Buck",
-          "title": "VP, Hyperscale & HPC Computing"
+          "title": "VP and GM, Hyperscale and HPC"
         }
       ],
       "has_open_opportunity": true,
@@ -120,107 +119,8 @@
     },
     {
       "tier": "Tier 1",
-      "company": "Lambda Labs",
-      "account_sfdc_link": "https://clockworksystems.lightning.force.com/lightning/r/Account/001TV00000O0bufYAB/view",
-      "owner": "Greg Mark",
-      "gpu_segment": "Neocloud",
-      "industry": "Software Development",
-      "target_account": true,
-      "icp_account": "High",
-      "attendee_count": 2,
-      "attendees": [
-        {
-          "name": "Robert Brooks IV",
-          "title": "Founding Team & Chief Commercial Officer"
-        },
-        {
-          "name": "Alee Fong",
-          "title": "DC Infrastructure Capacity & Engineering"
-        }
-      ],
-      "has_open_opportunity": true,
-      "stage": "01 - Qualified",
-      "amount": 200000.0,
-      "best_contact": "Maxx Garrison",
-      "best_contact_title": "Director of Product Management",
-      "best_contact_email": "maxx@lambdalabs.com",
-      "primary_campaign": null,
-      "event_family": null,
-      "first_touch": "2025-09-16T17:53:57.000+0000",
-      "last_touch": "2026-09-02",
-      "opp_id": "006TV00000OdWjnYAF",
-      "sfdc_link": "https://clockworksystems.my.salesforce.com/lightning/r/Opportunity/006TV00000OdWjnYAF/view"
-    },
-    {
-      "tier": "Tier 1",
-      "company": "Crusoe",
-      "account_sfdc_link": "https://clockworksystems.lightning.force.com/lightning/r/Account/001TV00000EkAtyYAF/view",
-      "owner": "Greg Mark",
-      "gpu_segment": "Neocloud",
-      "industry": "Technology, Information and Internet",
-      "target_account": false,
-      "icp_account": "High",
-      "attendee_count": 3,
-      "attendees": [
-        {
-          "name": "Erwan Menard",
-          "title": "SVP, Product Management"
-        },
-        {
-          "name": "Chris Dolan",
-          "title": "Chief Data Center Officer"
-        },
-        {
-          "name": "Sharmila Bokka",
-          "title": "Senior Electrical Engineer"
-        }
-      ],
-      "has_open_opportunity": true,
-      "stage": "03 - Technical Validation",
-      "amount": 200000.0,
-      "best_contact": "Chase Lochmiller",
-      "best_contact_title": "Co-Founder & CEO",
-      "best_contact_email": "chase@crusoe.ai",
-      "primary_campaign": "Speakers | Pre-Conf | RAISE 2025",
-      "event_family": "RAISE 2025 (Conference)",
-      "first_touch": "2024-11-22T20:25:56.000+0000",
-      "last_touch": "2026-09-01",
-      "opp_id": "006TV00000CRnybYAD",
-      "sfdc_link": "https://clockworksystems.my.salesforce.com/lightning/r/Opportunity/006TV00000CRnybYAD/view"
-    },
-    {
-      "tier": "Tier 1",
-      "company": "eBay",
-      "account_sfdc_link": "https://clockworksystems.lightning.force.com/lightning/r/Account/001Kb00001Gwis8IAB/view",
-      "owner": "Greg Mark",
-      "gpu_segment": "Enterprise AI Builder",
-      "industry": "Technology, Information and Internet",
-      "target_account": false,
-      "icp_account": "High",
-      "attendee_count": 1,
-      "attendees": [
-        {
-          "name": "Senthil Padmanabhan",
-          "title": "VP, Engineering, Global Verticals & API Platform"
-        }
-      ],
-      "has_open_opportunity": true,
-      "stage": "01 - Qualified",
-      "amount": 150000.0,
-      "best_contact": null,
-      "best_contact_title": null,
-      "best_contact_email": null,
-      "primary_campaign": null,
-      "event_family": null,
-      "first_touch": "2025-12-01T18:38:25.000+0000",
-      "last_touch": null,
-      "opp_id": "006TV00000SEYUlYAP",
-      "sfdc_link": "https://clockworksystems.my.salesforce.com/lightning/r/Opportunity/006TV00000SEYUlYAP/view"
-    },
-    {
-      "tier": "Tier 1",
-      "company": "LinkedIn",
-      "account_sfdc_link": "https://clockworksystems.lightning.force.com/lightning/r/Account/001Kb00001Gwv08IAB/view",
+      "company": "Pinterest",
+      "account_sfdc_link": "https://clockworksystems.lightning.force.com/lightning/r/Account/001Kb00001Gwiu2IAB/view",
       "owner": "Greg Mark",
       "gpu_segment": "Enterprise AI Builder",
       "industry": "Software Development",
@@ -229,115 +129,12 @@
       "attendee_count": 2,
       "attendees": [
         {
-          "name": "Sundara Raman Ramachandran",
-          "title": "Staff Software Engineer"
+          "name": "Jose Lopez",
+          "title": "Software Engineer"
         },
         {
-          "name": "Ankur Gupta",
-          "title": "Senior Staff Technical Program Manager"
-        }
-      ],
-      "has_open_opportunity": true,
-      "stage": "01 - Qualified",
-      "amount": 150000.0,
-      "best_contact": null,
-      "best_contact_title": null,
-      "best_contact_email": null,
-      "primary_campaign": null,
-      "event_family": null,
-      "first_touch": "2025-12-08T17:49:05.000+0000",
-      "last_touch": "2026-03-16",
-      "opp_id": "006TV00000SUtzpYAD",
-      "sfdc_link": "https://clockworksystems.my.salesforce.com/lightning/r/Opportunity/006TV00000SUtzpYAD/view"
-    },
-    {
-      "tier": "Tier 1",
-      "company": "Core42",
-      "account_sfdc_link": "https://clockworksystems.lightning.force.com/lightning/r/Account/001TV00000FdZ23YAF/view",
-      "owner": "Sean Coughlin",
-      "gpu_segment": "Neocloud",
-      "industry": "Real Estate",
-      "target_account": false,
-      "icp_account": "High",
-      "attendee_count": 1,
-      "attendees": [
-        {
-          "name": "Alex Trafton",
-          "title": "SVP & CISO"
-        }
-      ],
-      "has_open_opportunity": true,
-      "stage": "01 - Qualified",
-      "amount": 150000.0,
-      "best_contact": "Edmondo Orlotti",
-      "best_contact_title": "Chief Growth Officer",
-      "best_contact_email": "edmondo.orlotti@core42.ai",
-      "primary_campaign": "Booth Visitors | Post-Conf | RAISE 2025",
-      "event_family": "RAISE 2025 (Conference)",
-      "first_touch": "2025-07-18T20:59:59.000+0000",
-      "last_touch": "2026-09-08",
-      "opp_id": "006TV00000MB5MIYA1",
-      "sfdc_link": "https://clockworksystems.my.salesforce.com/lightning/r/Opportunity/006TV00000MB5MIYA1/view"
-    },
-    {
-      "tier": "Tier 1",
-      "company": "Dell Technologies",
-      "account_sfdc_link": "https://clockworksystems.lightning.force.com/lightning/r/Account/001Kb00001GwirvIAB/view",
-      "owner": "Sean Coughlin",
-      "gpu_segment": "Partner",
-      "industry": "Software Development",
-      "target_account": false,
-      "icp_account": "Medium",
-      "attendee_count": 1,
-      "attendees": [
-        {
-          "name": "Divya Singh",
-          "title": "Consultant, Data Engineering"
-        }
-      ],
-      "has_open_opportunity": true,
-      "stage": "03 - Technical Validation",
-      "amount": 75000.0,
-      "best_contact": "Joseph White",
-      "best_contact_title": "Fellow",
-      "best_contact_email": "joseph.l.white@dell.com",
-      "primary_campaign": null,
-      "event_family": null,
-      "first_touch": "2025-10-20T18:53:18.000+0000",
-      "last_touch": "2026-06-24",
-      "opp_id": "006TV00000QHtKTYA1",
-      "sfdc_link": "https://clockworksystems.my.salesforce.com/lightning/r/Opportunity/006TV00000QHtKTYA1/view"
-    },
-    {
-      "tier": "Tier 1",
-      "company": "Intel",
-      "account_sfdc_link": "https://clockworksystems.lightning.force.com/lightning/r/Account/001Kb00001GwiszIAB/view",
-      "owner": "Greg Mark",
-      "gpu_segment": "Hyperscaler",
-      "industry": "Semiconductor Manufacturing",
-      "target_account": true,
-      "icp_account": "Medium",
-      "attendee_count": 5,
-      "attendees": [
-        {
-          "name": "Lip-Bu Tan",
-          "title": "CEO"
-        },
-        {
-          "name": "Huma Abidi",
-          "title": "Senior Director & GM - AI Frameworks"
-        },
-        {
-          "name": "Vidhya Thyagarajan",
-          "title": "Head of AI SOC Architecture"
-        },
-        {
-          "name": "Anil Nanduri",
-          "title": "Vice President, Product Management, GTM & Customer Success - AI Accelerators"
-        },
-        {
-          "name": "Huma Abidi",
-          "title": "Senior Director & General Manager - AI Frameworks"
+          "name": "Priyanka Taneja",
+          "title": "Software Engineer"
         }
       ],
       "has_open_opportunity": false,
@@ -355,278 +152,18 @@
     },
     {
       "tier": "Tier 1",
-      "company": "Meta",
-      "account_sfdc_link": "https://clockworksystems.lightning.force.com/lightning/r/Account/001Kb00001GwpweIAB/view",
-      "owner": "Greg Mark",
-      "gpu_segment": "Enterprise AI Builder",
-      "industry": "Research Services",
-      "target_account": true,
-      "icp_account": "High",
-      "attendee_count": 5,
-      "attendees": [
-        {
-          "name": "Santosh Janardhan",
-          "title": "Head of Infrastructure"
-        },
-        {
-          "name": "Olivia Wu",
-          "title": "Distinguished Engineer"
-        },
-        {
-          "name": "Usman Ali",
-          "title": "Senior ASIC Engineer - Architecture"
-        },
-        {
-          "name": "Venkat Ramesh",
-          "title": "ASIC Engineer"
-        },
-        {
-          "name": "Dharmesh Jani",
-          "title": "Director, AI Infrastructure Ecosystem & Partnerships"
-        }
-      ],
-      "has_open_opportunity": true,
-      "stage": "00 - Prospecting",
-      "amount": null,
-      "best_contact": "Luccabb Luccabb",
-      "best_contact_title": "Software Engineer",
-      "best_contact_email": "luccabazzo@gmail.com",
-      "primary_campaign": "PyTorch 2025 | Booth Leads | 2025-10-22",
-      "event_family": "PyTorch 2025 (Conference)",
-      "first_touch": "2025-09-15T18:54:38.000+0000",
-      "last_touch": "2026-09-14",
-      "opp_id": "006TV00000OahgYYAR",
-      "sfdc_link": "https://clockworksystems.my.salesforce.com/lightning/r/Opportunity/006TV00000OahgYYAR/view"
-    },
-    {
-      "tier": "Tier 1",
-      "company": "AI21 Labs",
-      "account_sfdc_link": "https://clockworksystems.lightning.force.com/lightning/r/Account/001TV00000LaqtnYAB/view",
-      "owner": "Sean Coughlin",
-      "gpu_segment": "AI Builder",
-      "industry": "Software Development",
-      "target_account": false,
-      "icp_account": "High",
-      "attendee_count": 1,
-      "attendees": [
-        {
-          "name": "Ori Goshen",
-          "title": "Co-Founder & Co-CEO"
-        }
-      ],
-      "has_open_opportunity": false,
-      "stage": "No Open Opportunity",
-      "amount": null,
-      "best_contact": null,
-      "best_contact_title": null,
-      "best_contact_email": null,
-      "primary_campaign": null,
-      "event_family": null,
-      "first_touch": null,
-      "last_touch": null,
-      "opp_id": null,
-      "sfdc_link": null
-    },
-    {
-      "tier": "Tier 1",
-      "company": "Philips",
-      "account_sfdc_link": "https://clockworksystems.lightning.force.com/lightning/r/Account/001TV00000CdrTxYAJ/view",
-      "owner": "Joe Tarantino",
-      "gpu_segment": "Enterprise AI Builder",
-      "industry": "Hospitals and Health Care",
-      "target_account": false,
-      "icp_account": "High",
-      "attendee_count": 1,
-      "attendees": [
-        {
-          "name": "Shez Partovi",
-          "title": "Chief Innovation Officer & Chief Business Leader, Enterprise Informatics"
-        }
-      ],
-      "has_open_opportunity": false,
-      "stage": "No Open Opportunity",
-      "amount": null,
-      "best_contact": null,
-      "best_contact_title": null,
-      "best_contact_email": null,
-      "primary_campaign": null,
-      "event_family": null,
-      "first_touch": null,
-      "last_touch": null,
-      "opp_id": null,
-      "sfdc_link": null
-    },
-    {
-      "tier": "Tier 1",
-      "company": "SemiAnalysis",
-      "account_sfdc_link": "https://clockworksystems.lightning.force.com/lightning/r/Account/001TV00000LbBRtYAN/view",
-      "owner": "Greg Mark",
-      "gpu_segment": "Partner",
-      "industry": "Semiconductors",
-      "target_account": false,
-      "icp_account": "Low",
-      "attendee_count": 1,
-      "attendees": [
-        {
-          "name": "Dylan Patel",
-          "title": "Founder, CEO & Chief Analyst"
-        }
-      ],
-      "has_open_opportunity": false,
-      "stage": "No Open Opportunity",
-      "amount": null,
-      "best_contact": null,
-      "best_contact_title": null,
-      "best_contact_email": null,
-      "primary_campaign": null,
-      "event_family": null,
-      "first_touch": null,
-      "last_touch": null,
-      "opp_id": null,
-      "sfdc_link": null
-    },
-    {
-      "tier": "Tier 1",
-      "company": "PayPal",
-      "account_sfdc_link": "https://clockworksystems.lightning.force.com/lightning/r/Account/001Kb00001GwitxIAB/view",
-      "owner": "Greg Mark",
-      "gpu_segment": "Enterprise AI Builder",
-      "industry": "Software Development",
-      "target_account": true,
-      "icp_account": "High",
-      "attendee_count": 3,
-      "attendees": [
-        {
-          "name": "Jennifer Broxmeyer",
-          "title": "VP of Legal"
-        },
-        {
-          "name": "Nitin Sharma",
-          "title": "Distinguished Engineer & Architect - AIML Engineering & Agentic AI"
-        },
-        {
-          "name": "Him Raj Singh",
-          "title": "Manager, Software Engineering"
-        }
-      ],
-      "has_open_opportunity": false,
-      "stage": "No Open Opportunity",
-      "amount": null,
-      "best_contact": null,
-      "best_contact_title": null,
-      "best_contact_email": null,
-      "primary_campaign": null,
-      "event_family": null,
-      "first_touch": null,
-      "last_touch": null,
-      "opp_id": null,
-      "sfdc_link": null
-    },
-    {
-      "tier": "Tier 1",
-      "company": "Broadcom",
-      "account_sfdc_link": "https://clockworksystems.lightning.force.com/lightning/r/Account/001Kb00001Gwpx5IAB/view",
-      "owner": "Greg Mark",
-      "gpu_segment": "Partner",
-      "industry": "Semiconductor Manufacturing",
-      "target_account": false,
-      "icp_account": "Medium",
-      "attendee_count": 2,
-      "attendees": [
-        {
-          "name": "Asad Khamisy",
-          "title": "SVP & GM, Core Switching Group"
-        },
-        {
-          "name": "Hasan Siraj",
-          "title": "Vice President of Products"
-        }
-      ],
-      "has_open_opportunity": false,
-      "stage": "No Open Opportunity",
-      "amount": null,
-      "best_contact": null,
-      "best_contact_title": null,
-      "best_contact_email": null,
-      "primary_campaign": null,
-      "event_family": null,
-      "first_touch": null,
-      "last_touch": null,
-      "opp_id": null,
-      "sfdc_link": null
-    },
-    {
-      "tier": "Tier 1",
-      "company": "Sony",
-      "account_sfdc_link": "https://clockworksystems.lightning.force.com/lightning/r/Account/001TV00000CPv4EYAT/view",
-      "owner": "Joe Tarantino",
-      "gpu_segment": "Enterprise AI Builder",
-      "industry": "Entertainment Providers",
-      "target_account": true,
-      "icp_account": "High",
-      "attendee_count": 1,
-      "attendees": [
-        {
-          "name": "Alice Xiang",
-          "title": "Global Head of AI Governance"
-        }
-      ],
-      "has_open_opportunity": false,
-      "stage": "No Open Opportunity",
-      "amount": null,
-      "best_contact": null,
-      "best_contact_title": null,
-      "best_contact_email": null,
-      "primary_campaign": null,
-      "event_family": null,
-      "first_touch": null,
-      "last_touch": null,
-      "opp_id": null,
-      "sfdc_link": null
-    },
-    {
-      "tier": "Tier 1",
-      "company": "Atos",
-      "account_sfdc_link": "https://clockworksystems.lightning.force.com/lightning/r/Account/001Kb00001GwohGIAR/view",
-      "owner": "Joe Tarantino",
-      "gpu_segment": "Enterprise AI Builder",
-      "industry": "IT Services and IT Consulting",
-      "target_account": false,
-      "icp_account": "High",
-      "attendee_count": 1,
-      "attendees": [
-        {
-          "name": "Chris McClean",
-          "title": "VP Global Head of AI Governance & Responsible AI"
-        }
-      ],
-      "has_open_opportunity": false,
-      "stage": "No Open Opportunity",
-      "amount": null,
-      "best_contact": null,
-      "best_contact_title": null,
-      "best_contact_email": null,
-      "primary_campaign": null,
-      "event_family": null,
-      "first_touch": null,
-      "last_touch": null,
-      "opp_id": null,
-      "sfdc_link": null
-    },
-    {
-      "tier": "Tier 1",
-      "company": "Truist",
-      "account_sfdc_link": "https://clockworksystems.lightning.force.com/lightning/r/Account/001Kb00001GwpxlIAB/view",
+      "company": "Nasdaq",
+      "account_sfdc_link": "https://clockworksystems.lightning.force.com/lightning/r/Account/001Kb00001GwitdIAB/view",
       "owner": "Chris Bowen",
       "gpu_segment": "Enterprise AI Builder",
       "industry": "Financial Services",
-      "target_account": false,
+      "target_account": true,
       "icp_account": "High",
       "attendee_count": 1,
       "attendees": [
         {
-          "name": "Ron Whitworth",
-          "title": "Chief Privacy Officer"
+          "name": "Marc Murphy",
+          "title": "Senior Vice President"
         }
       ],
       "has_open_opportunity": false,
@@ -644,18 +181,80 @@
     },
     {
       "tier": "Tier 1",
-      "company": "Eli Lilly",
-      "account_sfdc_link": "https://clockworksystems.lightning.force.com/lightning/r/Account/001Kb00001GwpxCIAR/view",
+      "company": "Cohere",
+      "account_sfdc_link": "https://clockworksystems.lightning.force.com/lightning/r/Account/001TV00000Cml92YAB/view",
+      "owner": "Greg Mark",
+      "gpu_segment": "Enterprise AI Builder",
+      "industry": "Software Development",
+      "target_account": false,
+      "icp_account": "High",
+      "attendee_count": 2,
+      "attendees": [
+        {
+          "name": "John Jordan",
+          "title": "Member of Technical Staff"
+        },
+        {
+          "name": "Autumn Moulder",
+          "title": "Senior VP of Engineering"
+        }
+      ],
+      "has_open_opportunity": false,
+      "stage": "No Open Opportunity",
+      "amount": null,
+      "best_contact": null,
+      "best_contact_title": null,
+      "best_contact_email": null,
+      "primary_campaign": null,
+      "event_family": null,
+      "first_touch": null,
+      "last_touch": null,
+      "opp_id": null,
+      "sfdc_link": null
+    },
+    {
+      "tier": "Tier 1",
+      "company": "Genentech",
+      "account_sfdc_link": "https://clockworksystems.lightning.force.com/lightning/r/Account/001TV00000FdYyyYAF/view",
+      "owner": "Greg Mark",
+      "gpu_segment": "Enterprise AI Builder",
+      "industry": "Biotechnology Research",
+      "target_account": false,
+      "icp_account": "Medium",
+      "attendee_count": 1,
+      "attendees": [
+        {
+          "name": "Richard Bonneau",
+          "title": "VP & Global Head, AI for Drug Discovery"
+        }
+      ],
+      "has_open_opportunity": false,
+      "stage": "No Open Opportunity",
+      "amount": null,
+      "best_contact": null,
+      "best_contact_title": null,
+      "best_contact_email": null,
+      "primary_campaign": null,
+      "event_family": null,
+      "first_touch": null,
+      "last_touch": null,
+      "opp_id": null,
+      "sfdc_link": null
+    },
+    {
+      "tier": "Tier 1",
+      "company": "Caterpillar",
+      "account_sfdc_link": "https://clockworksystems.lightning.force.com/lightning/r/Account/001Kb00001GwpwDIAR/view",
       "owner": "Chris Bowen",
       "gpu_segment": "Enterprise AI Builder",
-      "industry": "Pharmaceutical Manufacturing",
+      "industry": "Machinery Manufacturing",
       "target_account": false,
       "icp_account": "High",
       "attendee_count": 1,
       "attendees": [
         {
-          "name": "Mahi Rayasam",
-          "title": "SVP, Customer Technology Innovation"
+          "name": "Brandon Hootman",
+          "title": "VP of Physical AI"
         }
       ],
       "has_open_opportunity": false,
@@ -683,8 +282,8 @@
       "attendee_count": 1,
       "attendees": [
         {
-          "name": "Sambit Sahu",
-          "title": "MVP, LLM Core & Agentic AI"
+          "name": "Maulin Patel",
+          "title": "Managing VP of Product, AI Platform"
         }
       ],
       "has_open_opportunity": false,
@@ -701,225 +300,48 @@
       "sfdc_link": null
     },
     {
-      "tier": "Tier 1",
-      "company": "Intuit",
-      "account_sfdc_link": "https://clockworksystems.lightning.force.com/lightning/r/Account/001Kb00001GwpxwIAB/view",
-      "owner": "Greg Mark",
-      "gpu_segment": "Enterprise AI Builder",
-      "industry": "Software Development",
-      "target_account": false,
-      "icp_account": "High",
-      "attendee_count": 1,
-      "attendees": [
-        {
-          "name": "Liza Levitt",
-          "title": "VP, Deputy General Counsel - Platforms, Responsible AI, Emerging Technology"
-        }
-      ],
-      "has_open_opportunity": false,
-      "stage": "No Open Opportunity",
-      "amount": null,
-      "best_contact": null,
-      "best_contact_title": null,
-      "best_contact_email": null,
-      "primary_campaign": null,
-      "event_family": null,
-      "first_touch": null,
-      "last_touch": null,
-      "opp_id": null,
-      "sfdc_link": null
-    },
-    {
-      "tier": "Tier 1",
-      "company": "Salesforce",
-      "account_sfdc_link": "https://clockworksystems.lightning.force.com/lightning/r/Account/001Kb00001GwpvlIAB/view",
-      "owner": "Greg Mark",
-      "gpu_segment": "Enterprise AI Builder",
-      "industry": "Software Development",
-      "target_account": true,
-      "icp_account": "High",
-      "attendee_count": 2,
-      "attendees": [
-        {
-          "name": "Ping Yan",
-          "title": "Senior Director, Security Data Science"
-        },
-        {
-          "name": "Muddu Sudhakar",
-          "title": "SVP & GM, IT Service & HR Service"
-        }
-      ],
-      "has_open_opportunity": false,
-      "stage": "No Open Opportunity",
-      "amount": null,
-      "best_contact": null,
-      "best_contact_title": null,
-      "best_contact_email": null,
-      "primary_campaign": null,
-      "event_family": null,
-      "first_touch": null,
-      "last_touch": null,
-      "opp_id": null,
-      "sfdc_link": null
-    },
-    {
-      "tier": "Tier 1",
-      "company": "Options Technology",
-      "account_sfdc_link": "https://clockworksystems.lightning.force.com/lightning/r/Account/001Kb00001GwitrIAB/view",
+      "tier": "Tier 2",
+      "company": "IBM",
+      "account_sfdc_link": "https://clockworksystems.lightning.force.com/lightning/r/Account/001Kb00001GwisrIAB/view",
       "owner": "Sean Coughlin",
-      "gpu_segment": "Neocloud",
-      "industry": "IT Services and IT Consulting",
-      "target_account": false,
-      "icp_account": "High",
-      "attendee_count": 1,
-      "attendees": [
-        {
-          "name": "Peter Hodgson",
-          "title": "Head of Targeted Developments"
-        }
-      ],
-      "has_open_opportunity": false,
-      "stage": "No Open Opportunity",
-      "amount": null,
-      "best_contact": null,
-      "best_contact_title": null,
-      "best_contact_email": null,
-      "primary_campaign": null,
-      "event_family": null,
-      "first_touch": null,
-      "last_touch": null,
-      "opp_id": null,
-      "sfdc_link": null
-    },
-    {
-      "tier": "Tier 1",
-      "company": "FluidStack",
-      "account_sfdc_link": "https://clockworksystems.lightning.force.com/lightning/r/Account/001TV00000JM9JTYA1/view",
-      "owner": "Sean Coughlin",
-      "gpu_segment": "Neocloud",
-      "industry": "Technology, Information and Internet",
-      "target_account": false,
-      "icp_account": "High",
-      "attendee_count": 1,
-      "attendees": [
-        {
-          "name": "Jason Kichen",
-          "title": "Chief Information Security Officer"
-        }
-      ],
-      "has_open_opportunity": false,
-      "stage": "No Open Opportunity",
-      "amount": null,
-      "best_contact": null,
-      "best_contact_title": null,
-      "best_contact_email": null,
-      "primary_campaign": null,
-      "event_family": null,
-      "first_touch": null,
-      "last_touch": null,
-      "opp_id": null,
-      "sfdc_link": null
-    },
-    {
-      "tier": "Tier 1",
-      "company": "Oracle",
-      "account_sfdc_link": "https://clockworksystems.lightning.force.com/lightning/r/Account/001Kb00001GwolqIAB/view",
-      "owner": "Greg Mark",
       "gpu_segment": "Hyperscaler",
       "industry": "IT Services and IT Consulting",
-      "target_account": false,
-      "icp_account": "High",
-      "attendee_count": 6,
-      "attendees": [
-        {
-          "name": "David Murray",
-          "title": "Distinguished Architect"
-        },
-        {
-          "name": "Ram Nagappan",
-          "title": "VP, AI Infrastructure & Lead Architect, Gigawatt-Scale Data Centers"
-        },
-        {
-          "name": "Nishtha Goel",
-          "title": "Senior Software Engineer"
-        },
-        {
-          "name": "Kp Papamiltiadis",
-          "title": "Senior Vice President, Product & Partnerships"
-        },
-        {
-          "name": "Ben Scarborough",
-          "title": "SVP, Customer Engineering"
-        },
-        {
-          "name": "Karan Batta",
-          "title": "SVP, Oracle Cloud Infrastructure"
-        }
-      ],
-      "has_open_opportunity": false,
-      "stage": "No Open Opportunity",
-      "amount": null,
-      "best_contact": null,
-      "best_contact_title": null,
-      "best_contact_email": null,
-      "primary_campaign": null,
-      "event_family": null,
-      "first_touch": null,
-      "last_touch": null,
-      "opp_id": null,
-      "sfdc_link": null
-    },
-    {
-      "tier": "Tier 1",
-      "company": "JPMorgan Chase",
-      "account_sfdc_link": "https://clockworksystems.lightning.force.com/lightning/r/Account/001Kb00001GwpvnIAB/view",
-      "owner": "Sean Coughlin",
-      "gpu_segment": "Enterprise AI Builder",
-      "industry": "Financial Services",
       "target_account": true,
       "icp_account": "High",
-      "attendee_count": 3,
+      "attendee_count": 1,
       "attendees": [
         {
-          "name": "Vibha Dhar",
-          "title": "Senior Manager, Software Engineering - SVP"
-        },
-        {
-          "name": "Sai Sathyanarayan",
-          "title": "Executive Director & Security Architecture Lead"
-        },
-        {
-          "name": "Vibha Dhar",
-          "title": "Senior Manager, Software Engineering"
+          "name": "Brian Belgodere",
+          "title": "Senior Technical Staff Member - AI / ML Systems"
         }
       ],
-      "has_open_opportunity": false,
-      "stage": "No Open Opportunity",
-      "amount": null,
+      "has_open_opportunity": true,
+      "stage": "00 - Prospecting",
+      "amount": 200000.0,
       "best_contact": null,
       "best_contact_title": null,
       "best_contact_email": null,
       "primary_campaign": null,
       "event_family": null,
-      "first_touch": null,
+      "first_touch": "2026-03-25T16:59:30.000+0000",
       "last_touch": null,
-      "opp_id": null,
-      "sfdc_link": null
+      "opp_id": "006TV00000Wz3crYAB",
+      "sfdc_link": "https://clockworksystems.my.salesforce.com/lightning/r/Opportunity/006TV00000Wz3crYAB/view"
     },
     {
-      "tier": "Tier 1",
-      "company": "Apple",
-      "account_sfdc_link": "https://clockworksystems.lightning.force.com/lightning/r/Account/001Kb00001GwpvLIAR/view",
+      "tier": "Tier 2",
+      "company": "Reflection AI",
+      "account_sfdc_link": "https://clockworksystems.lightning.force.com/lightning/r/Account/001TV00000ggHabYAE/view",
       "owner": "Greg Mark",
       "gpu_segment": "Enterprise AI Builder",
-      "industry": "Computers and Electronics Manufacturing",
+      "industry": "Software Development",
       "target_account": false,
       "icp_account": "High",
       "attendee_count": 1,
       "attendees": [
         {
-          "name": "Maitrik Patel",
-          "title": "Senior Engineering Manager - AI/ML"
+          "name": "Joe Spisak",
+          "title": "VP of Product & Head of Open Source"
         }
       ],
       "has_open_opportunity": false,
@@ -936,10 +358,10 @@
       "sfdc_link": null
     },
     {
-      "tier": "Tier 1",
-      "company": "Moreh",
-      "account_sfdc_link": "https://clockworksystems.lightning.force.com/lightning/r/Account/001TV00000aksWvYAI/view",
-      "owner": "Joe Tarantino",
+      "tier": "Tier 2",
+      "company": "Vast Data",
+      "account_sfdc_link": "https://clockworksystems.lightning.force.com/lightning/r/Account/001Kb00001GwiusIAB/view",
+      "owner": "Sean Coughlin",
       "gpu_segment": "Partner",
       "industry": "Software Development",
       "target_account": false,
@@ -947,8 +369,8 @@
       "attendee_count": 1,
       "attendees": [
         {
-          "name": "Gangwon Jo",
-          "title": "CEO"
+          "name": "Alon Horev",
+          "title": "Co-Founder & CTO"
         }
       ],
       "has_open_opportunity": false,
@@ -965,349 +387,10 @@
       "sfdc_link": null
     },
     {
-      "tier": "Tier 1",
-      "company": "AMD",
-      "account_sfdc_link": "https://clockworksystems.lightning.force.com/lightning/r/Account/001Kb00001GwpwOIAR/view",
-      "owner": "Greg Mark",
-      "gpu_segment": "Partner",
-      "industry": "Semiconductor Manufacturing",
-      "target_account": false,
-      "icp_account": "Medium",
-      "attendee_count": 4,
-      "attendees": [
-        {
-          "name": "Stephen Bates",
-          "title": "Fellow, AI Storage Software and Architecture"
-        },
-        {
-          "name": "Nuwan Jayasena",
-          "title": "Fellow"
-        },
-        {
-          "name": "Kurtis Bowman",
-          "title": "UALink Consortium Board Chair and Director of Architecture and Strategy"
-        },
-        {
-          "name": "Ellen Yang",
-          "title": "Director, Data Center"
-        }
-      ],
-      "has_open_opportunity": false,
-      "stage": "No Open Opportunity",
-      "amount": null,
-      "best_contact": null,
-      "best_contact_title": null,
-      "best_contact_email": null,
-      "primary_campaign": null,
-      "event_family": null,
-      "first_touch": null,
-      "last_touch": null,
-      "opp_id": null,
-      "sfdc_link": null
-    },
-    {
-      "tier": "Tier 1",
-      "company": "Samsung",
-      "account_sfdc_link": "https://clockworksystems.lightning.force.com/lightning/r/Account/001TV00000CdrPOYAZ/view",
-      "owner": "Greg Mark",
-      "gpu_segment": "Enterprise AI Builder",
-      "industry": "Computers and Electronics Manufacturing",
-      "target_account": true,
-      "icp_account": "High",
-      "attendee_count": 1,
-      "attendees": [
-        {
-          "name": "Pankaj Kalra",
-          "title": "Director, Product Planning"
-        }
-      ],
-      "has_open_opportunity": false,
-      "stage": "No Open Opportunity",
-      "amount": null,
-      "best_contact": null,
-      "best_contact_title": null,
-      "best_contact_email": null,
-      "primary_campaign": null,
-      "event_family": null,
-      "first_touch": null,
-      "last_touch": null,
-      "opp_id": null,
-      "sfdc_link": null
-    },
-    {
-      "tier": "Tier 1",
-      "company": "Singtel",
-      "account_sfdc_link": "https://clockworksystems.lightning.force.com/lightning/r/Account/001TV00000CdrMqYAJ/view",
-      "owner": "Joe Tarantino",
-      "gpu_segment": "Neocloud",
-      "industry": "Telecommunications",
-      "target_account": false,
-      "icp_account": "High",
-      "attendee_count": 1,
-      "attendees": [
-        {
-          "name": "Srikanth Manthena",
-          "title": "Senior Manager, Solutions Management"
-        }
-      ],
-      "has_open_opportunity": false,
-      "stage": "No Open Opportunity",
-      "amount": null,
-      "best_contact": null,
-      "best_contact_title": null,
-      "best_contact_email": null,
-      "primary_campaign": null,
-      "event_family": null,
-      "first_touch": null,
-      "last_touch": null,
-      "opp_id": null,
-      "sfdc_link": null
-    },
-    {
-      "tier": "Tier 1",
-      "company": "Penguin Solutions",
-      "account_sfdc_link": "https://clockworksystems.lightning.force.com/lightning/r/Account/001TV00000aX0HSYA0/view",
-      "owner": "Greg Mark",
-      "gpu_segment": "Partner",
-      "industry": "IT Services and IT Consulting",
-      "target_account": false,
-      "icp_account": "High",
-      "attendee_count": 2,
-      "attendees": [
-        {
-          "name": "Andy Mills",
-          "title": "VP, Advanced Product Development"
-        },
-        {
-          "name": "Andy Mills",
-          "title": "Vice President, Advanced Product Development"
-        }
-      ],
-      "has_open_opportunity": false,
-      "stage": "No Open Opportunity",
-      "amount": null,
-      "best_contact": null,
-      "best_contact_title": null,
-      "best_contact_email": null,
-      "primary_campaign": null,
-      "event_family": null,
-      "first_touch": null,
-      "last_touch": null,
-      "opp_id": null,
-      "sfdc_link": null
-    },
-    {
-      "tier": "Tier 1",
-      "company": "PG&E",
-      "account_sfdc_link": "https://clockworksystems.lightning.force.com/lightning/r/Account/001Kb00001GwpxZIAR/view",
-      "owner": "Greg Mark",
-      "gpu_segment": "Enterprise AI Builder",
-      "industry": "Utilities",
-      "target_account": false,
-      "icp_account": "High",
-      "attendee_count": 1,
-      "attendees": [
-        {
-          "name": "Chelle Izzi",
-          "title": "CCO"
-        }
-      ],
-      "has_open_opportunity": false,
-      "stage": "No Open Opportunity",
-      "amount": null,
-      "best_contact": null,
-      "best_contact_title": null,
-      "best_contact_email": null,
-      "primary_campaign": null,
-      "event_family": null,
-      "first_touch": null,
-      "last_touch": null,
-      "opp_id": null,
-      "sfdc_link": null
-    },
-    {
-      "tier": "Tier 1",
-      "company": "DRW Holdings",
-      "account_sfdc_link": "https://clockworksystems.lightning.force.com/lightning/r/Account/001Kb00001Gwis5IAB/view",
+      "tier": "Tier 2",
+      "company": "Cognition",
+      "account_sfdc_link": "https://clockworksystems.lightning.force.com/lightning/r/Account/001TV00000gg2oQYAQ/view",
       "owner": "Sean Coughlin",
-      "gpu_segment": "Enterprise AI Builder",
-      "industry": "Financial Services",
-      "target_account": false,
-      "icp_account": "High",
-      "attendee_count": 1,
-      "attendees": [
-        {
-          "name": "Mike Bahr",
-          "title": "Head of Infrastructure, Data Center and Networking"
-        }
-      ],
-      "has_open_opportunity": false,
-      "stage": "No Open Opportunity",
-      "amount": null,
-      "best_contact": null,
-      "best_contact_title": null,
-      "best_contact_email": null,
-      "primary_campaign": null,
-      "event_family": null,
-      "first_touch": null,
-      "last_touch": null,
-      "opp_id": null,
-      "sfdc_link": null
-    },
-    {
-      "tier": "Tier 1",
-      "company": "Cirrascale",
-      "account_sfdc_link": "https://clockworksystems.lightning.force.com/lightning/r/Account/001TV00000FdZ0nYAF/view",
-      "owner": "Greg Mark",
-      "gpu_segment": "Neocloud",
-      "industry": "Technology, Information and Internet",
-      "target_account": false,
-      "icp_account": "High",
-      "attendee_count": 1,
-      "attendees": [
-        {
-          "name": "Dave Driggers",
-          "title": "CEO"
-        }
-      ],
-      "has_open_opportunity": false,
-      "stage": "No Open Opportunity",
-      "amount": null,
-      "best_contact": null,
-      "best_contact_title": null,
-      "best_contact_email": null,
-      "primary_campaign": null,
-      "event_family": null,
-      "first_touch": null,
-      "last_touch": null,
-      "opp_id": null,
-      "sfdc_link": null
-    },
-    {
-      "tier": "Tier 1",
-      "company": "Boeing",
-      "account_sfdc_link": "https://clockworksystems.lightning.force.com/lightning/r/Account/001Kb00001GwpviIAB/view",
-      "owner": "Chris Bowen",
-      "gpu_segment": "Enterprise AI Builder",
-      "industry": "Aviation & Aerospace",
-      "target_account": false,
-      "icp_account": "Medium",
-      "attendee_count": 2,
-      "attendees": [
-        {
-          "name": "Philip Freeman",
-          "title": "Senior Technical Fellow Assembly Automation & Robotics Engineering & Technology Innovation"
-        },
-        {
-          "name": "Bala Chidambaram",
-          "title": "Senior Executive Director & Chief Engineer"
-        }
-      ],
-      "has_open_opportunity": false,
-      "stage": "No Open Opportunity",
-      "amount": null,
-      "best_contact": null,
-      "best_contact_title": null,
-      "best_contact_email": null,
-      "primary_campaign": null,
-      "event_family": null,
-      "first_touch": null,
-      "last_touch": null,
-      "opp_id": null,
-      "sfdc_link": null
-    },
-    {
-      "tier": "Tier 1",
-      "company": "General Motors",
-      "account_sfdc_link": "https://clockworksystems.lightning.force.com/lightning/r/Account/001Kb00001GwpvtIAB/view",
-      "owner": "Sean Coughlin",
-      "gpu_segment": "Enterprise AI Builder",
-      "industry": "Motor Vehicle Manufacturing",
-      "target_account": false,
-      "icp_account": "High",
-      "attendee_count": 1,
-      "attendees": [
-        {
-          "name": "Benjamin Guihaire",
-          "title": "Senior Executive Director - Autonomous Vehicle Simulation, Eval, Data, and Test - Machine Learning"
-        }
-      ],
-      "has_open_opportunity": false,
-      "stage": "No Open Opportunity",
-      "amount": null,
-      "best_contact": null,
-      "best_contact_title": null,
-      "best_contact_email": null,
-      "primary_campaign": null,
-      "event_family": null,
-      "first_touch": null,
-      "last_touch": null,
-      "opp_id": null,
-      "sfdc_link": null
-    },
-    {
-      "tier": "Tier 1",
-      "company": "Lockheed Martin",
-      "account_sfdc_link": "https://clockworksystems.lightning.force.com/lightning/r/Account/001Kb00001Gwpw0IAB/view",
-      "owner": "Chris Bowen",
-      "gpu_segment": "Enterprise AI Builder",
-      "industry": "Telecommunications",
-      "target_account": true,
-      "icp_account": "Medium",
-      "attendee_count": 1,
-      "attendees": [
-        {
-          "name": "Eliana Stefani",
-          "title": "Portfolio Manager for Cognitive Agents & Sense-making"
-        }
-      ],
-      "has_open_opportunity": false,
-      "stage": "No Open Opportunity",
-      "amount": null,
-      "best_contact": null,
-      "best_contact_title": null,
-      "best_contact_email": null,
-      "primary_campaign": null,
-      "event_family": null,
-      "first_touch": null,
-      "last_touch": null,
-      "opp_id": null,
-      "sfdc_link": null
-    },
-    {
-      "tier": "Tier 1",
-      "company": "Waymo",
-      "account_sfdc_link": "https://clockworksystems.lightning.force.com/lightning/r/Account/001Kb00001Gx22mIAB/view",
-      "owner": "Greg Mark",
-      "gpu_segment": "Enterprise AI Builder",
-      "industry": "Technology, Information and Internet",
-      "target_account": true,
-      "icp_account": "High",
-      "attendee_count": 1,
-      "attendees": [
-        {
-          "name": "Sabareesh Ravikumar",
-          "title": "Senior Staff Silicon Engineer"
-        }
-      ],
-      "has_open_opportunity": false,
-      "stage": "No Open Opportunity",
-      "amount": null,
-      "best_contact": null,
-      "best_contact_title": null,
-      "best_contact_email": null,
-      "primary_campaign": null,
-      "event_family": null,
-      "first_touch": null,
-      "last_touch": null,
-      "opp_id": null,
-      "sfdc_link": null
-    },
-    {
-      "tier": "Tier 1",
-      "company": "Adobe",
-      "account_sfdc_link": "https://clockworksystems.lightning.force.com/lightning/r/Account/001Kb00001GwpwPIAR/view",
-      "owner": "Greg Mark",
       "gpu_segment": "Enterprise AI Builder",
       "industry": "Software Development",
       "target_account": false,
@@ -1315,12 +398,12 @@
       "attendee_count": 2,
       "attendees": [
         {
-          "name": "Charit Upadhyay",
-          "title": "Senior Site Reliability Engineer"
+          "name": "Silas Alberti",
+          "title": "SVP Research & Founding Team"
         },
         {
-          "name": "Jie Liao",
-          "title": "Engineering Director"
+          "name": "Carlo Baronio",
+          "title": "Research Engineer"
         }
       ],
       "has_open_opportunity": false,
@@ -1337,106 +420,19 @@
       "sfdc_link": null
     },
     {
-      "tier": "Tier 1",
-      "company": "Mastercard",
-      "account_sfdc_link": "https://clockworksystems.lightning.force.com/lightning/r/Account/001Kb00001GwitPIAR/view",
-      "owner": "Chris Bowen",
-      "gpu_segment": "Enterprise AI Builder",
-      "industry": "IT Services and IT Consulting",
-      "target_account": true,
-      "icp_account": "High",
-      "attendee_count": 1,
-      "attendees": [
-        {
-          "name": "Rakesh Awasthi",
-          "title": "Principal Software Engineer"
-        }
-      ],
-      "has_open_opportunity": false,
-      "stage": "No Open Opportunity",
-      "amount": null,
-      "best_contact": null,
-      "best_contact_title": null,
-      "best_contact_email": null,
-      "primary_campaign": null,
-      "event_family": null,
-      "first_touch": null,
-      "last_touch": null,
-      "opp_id": null,
-      "sfdc_link": null
-    },
-    {
-      "tier": "Tier 1",
-      "company": "OpenAI",
-      "account_sfdc_link": "https://clockworksystems.lightning.force.com/lightning/r/Account/001TV00000E7k7kYAB/view",
+      "tier": "Tier 2",
+      "company": "World Labs",
+      "account_sfdc_link": "https://clockworksystems.lightning.force.com/lightning/r/Account/001TV00000XpeMzYAJ/view",
       "owner": "Greg Mark",
-      "gpu_segment": "Enterprise AI Builder",
+      "gpu_segment": "AI Builder",
       "industry": "Research Services",
       "target_account": true,
       "icp_account": "High",
       "attendee_count": 1,
       "attendees": [
         {
-          "name": "Sachin Katti",
-          "title": "Vice President, Compute Strategy & GPT-Infra"
-        }
-      ],
-      "has_open_opportunity": false,
-      "stage": "No Open Opportunity",
-      "amount": null,
-      "best_contact": null,
-      "best_contact_title": null,
-      "best_contact_email": null,
-      "primary_campaign": null,
-      "event_family": null,
-      "first_touch": null,
-      "last_touch": null,
-      "opp_id": null,
-      "sfdc_link": null
-    },
-    {
-      "tier": "Tier 1",
-      "company": "Writer",
-      "account_sfdc_link": "https://clockworksystems.lightning.force.com/lightning/r/Account/001TV00000FdZ0lYAF/view",
-      "owner": "Greg Mark",
-      "gpu_segment": "Enterprise AI Builder",
-      "industry": "Software Development",
-      "target_account": true,
-      "icp_account": "High",
-      "attendee_count": 1,
-      "attendees": [
-        {
-          "name": "Raafat Zarka",
-          "title": "Director of Software Engineering"
-        }
-      ],
-      "has_open_opportunity": false,
-      "stage": "No Open Opportunity",
-      "amount": null,
-      "best_contact": null,
-      "best_contact_title": null,
-      "best_contact_email": null,
-      "primary_campaign": null,
-      "event_family": null,
-      "first_touch": null,
-      "last_touch": null,
-      "opp_id": null,
-      "sfdc_link": null
-    },
-    {
-      "tier": "Tier 1",
-      "company": "Nokia",
-      "account_sfdc_link": "https://clockworksystems.lightning.force.com/lightning/r/Account/001TV00000CdrUIYAZ/view",
-      "owner": "Joe Tarantino",
-      "gpu_segment": "Partner",
-      "industry": "Telecommunications",
-      "target_account": false,
-      "icp_account": "High",
-      "attendee_count": 1,
-      "attendees": [
-        {
-          "name": "Clayton Wagar",
-          "title": "Leader, AI and High Performance Networking"
+          "name": "Fei-Fei Li",
+          "title": "Co-Founder and CEO"
         }
       ],
       "has_open_opportunity": false,
@@ -1454,1287 +450,18 @@
     },
     {
       "tier": "Tier 2",
-      "company": "Argonne National Laboratory",
-      "account_sfdc_link": "https://clockworksystems.lightning.force.com/lightning/r/Account/001TV00000JcU2AYAV/view",
-      "owner": "Chris Bowen",
-      "gpu_segment": "Enterprise AI Builder",
-      "industry": "Government Administration",
-      "target_account": false,
-      "icp_account": "High",
-      "attendee_count": 1,
-      "attendees": [
-        {
-          "name": "Murali Krishna Emani",
-          "title": "Computer Scientist"
-        }
-      ],
-      "has_open_opportunity": true,
-      "stage": "01 - Qualified",
-      "amount": 150000.0,
-      "best_contact": "Sam Foreman",
-      "best_contact_title": "Computational Scientist",
-      "best_contact_email": "foremans@anl.gov",
-      "primary_campaign": null,
-      "event_family": null,
-      "first_touch": "2026-05-21T14:04:16.000+0000",
-      "last_touch": "2026-08-26",
-      "opp_id": "006TV00000ZROq6YAH",
-      "sfdc_link": "https://clockworksystems.my.salesforce.com/lightning/r/Opportunity/006TV00000ZROq6YAH/view"
-    },
-    {
-      "tier": "Tier 2",
-      "company": "Google",
-      "account_sfdc_link": "https://clockworksystems.lightning.force.com/lightning/r/Account/001Kb00001GwiscIAB/view",
-      "owner": "Greg Mark",
-      "gpu_segment": "Hyperscaler",
-      "industry": "Software Development",
-      "target_account": false,
-      "icp_account": "High",
-      "attendee_count": 5,
-      "attendees": [
-        {
-          "name": "Jeff Dean",
-          "title": "Chief Scientist & Technical Lead, Gemini"
-        },
-        {
-          "name": "Monique Picou",
-          "title": "Chief Product Supply Officer"
-        },
-        {
-          "name": "James Kim",
-          "title": "System Development Engineer"
-        },
-        {
-          "name": "Savannah Goodman",
-          "title": "Head of Advanced Energy Labs"
-        },
-        {
-          "name": "Harsha Bojja",
-          "title": "AI/ML Platform Technical Lead"
-        }
-      ],
-      "has_open_opportunity": false,
-      "stage": "No Open Opportunity",
-      "amount": null,
-      "best_contact": null,
-      "best_contact_title": null,
-      "best_contact_email": null,
-      "primary_campaign": null,
-      "event_family": null,
-      "first_touch": null,
-      "last_touch": null,
-      "opp_id": null,
-      "sfdc_link": null
-    },
-    {
-      "tier": "Tier 2",
-      "company": "Amazon",
-      "account_sfdc_link": "https://clockworksystems.lightning.force.com/lightning/r/Account/001Kb00001GwqojIAB/view",
-      "owner": "Greg Mark",
-      "gpu_segment": "Hyperscaler",
-      "industry": "Software Development",
-      "target_account": false,
-      "icp_account": "High",
-      "attendee_count": 2,
-      "attendees": [
-        {
-          "name": "Peter DeSantis",
-          "title": "SVP, Foundational AI Models, Custom Silicon & Quantum Computing"
-        },
-        {
-          "name": "Mitalee Gujar",
-          "title": "Director of Engineering"
-        }
-      ],
-      "has_open_opportunity": false,
-      "stage": "No Open Opportunity",
-      "amount": null,
-      "best_contact": null,
-      "best_contact_title": null,
-      "best_contact_email": null,
-      "primary_campaign": null,
-      "event_family": null,
-      "first_touch": null,
-      "last_touch": null,
-      "opp_id": null,
-      "sfdc_link": null
-    },
-    {
-      "tier": "Tier 2",
-      "company": "HPE",
-      "account_sfdc_link": "https://clockworksystems.lightning.force.com/lightning/r/Account/001Kb00001GwismIAB/view",
-      "owner": "Greg Mark",
-      "gpu_segment": "Enterprise AI Builder",
-      "industry": "IT Services and IT Consulting",
-      "target_account": true,
-      "icp_account": "High",
-      "attendee_count": 2,
-      "attendees": [
-        {
-          "name": "Fidelma Russo",
-          "title": "CTO, EVP & GM Hybrid Cloud"
-        },
-        {
-          "name": "Andrew Wheeler",
-          "title": "Deputy Chief Technology Officer"
-        }
-      ],
-      "has_open_opportunity": false,
-      "stage": "No Open Opportunity",
-      "amount": null,
-      "best_contact": null,
-      "best_contact_title": null,
-      "best_contact_email": null,
-      "primary_campaign": null,
-      "event_family": null,
-      "first_touch": null,
-      "last_touch": null,
-      "opp_id": null,
-      "sfdc_link": null
-    },
-    {
-      "tier": "Tier 2",
-      "company": "US Bank",
-      "account_sfdc_link": "https://clockworksystems.lightning.force.com/lightning/r/Account/001Kb00001Gwpx1IAB/view",
-      "owner": "Sean Coughlin",
-      "gpu_segment": "Enterprise AI Builder",
-      "industry": "Banking",
-      "target_account": true,
-      "icp_account": "High",
-      "attendee_count": 1,
-      "attendees": [
-        {
-          "name": "Prashant Mehrotra",
-          "title": "EVP & Chief AI Officer"
-        }
-      ],
-      "has_open_opportunity": false,
-      "stage": "No Open Opportunity",
-      "amount": null,
-      "best_contact": null,
-      "best_contact_title": null,
-      "best_contact_email": null,
-      "primary_campaign": null,
-      "event_family": null,
-      "first_touch": null,
-      "last_touch": null,
-      "opp_id": null,
-      "sfdc_link": null
-    },
-    {
-      "tier": "Tier 2",
-      "company": "Siemens",
-      "account_sfdc_link": "https://clockworksystems.lightning.force.com/lightning/r/Account/001TV00000CdrQ6YAJ/view",
-      "owner": "Chris Bowen",
-      "gpu_segment": "Enterprise AI Builder",
-      "industry": "Automation Machinery Manufacturing",
-      "target_account": true,
-      "icp_account": "Medium",
-      "attendee_count": 3,
-      "attendees": [
-        {
-          "name": "Amit Gupta",
-          "title": "SVP and GM, AI Strategy and Solido Custom IC"
-        },
-        {
-          "name": "Eugen Solowjow",
-          "title": "Head of R&D - Robotics & AI"
-        },
-        {
-          "name": "Amit Gupta",
-          "title": "Senior Vice President and General Manager"
-        }
-      ],
-      "has_open_opportunity": false,
-      "stage": "No Open Opportunity",
-      "amount": null,
-      "best_contact": null,
-      "best_contact_title": null,
-      "best_contact_email": null,
-      "primary_campaign": null,
-      "event_family": null,
-      "first_touch": null,
-      "last_touch": null,
-      "opp_id": null,
-      "sfdc_link": null
-    },
-    {
-      "tier": "Tier 2",
-      "company": "d-Matrix",
-      "account_sfdc_link": "https://clockworksystems.lightning.force.com/lightning/r/Account/001TV00000WYFwgYAH/view",
-      "owner": "Greg Mark",
-      "gpu_segment": "Partner",
-      "industry": "Semiconductor Manufacturing",
-      "target_account": false,
-      "icp_account": "High",
-      "attendee_count": 2,
-      "attendees": [
-        {
-          "name": "Chris Nicol",
-          "title": "Vice President"
-        },
-        {
-          "name": "Satyam Srivastava",
-          "title": "Distinguished Engineer"
-        }
-      ],
-      "has_open_opportunity": false,
-      "stage": "No Open Opportunity",
-      "amount": null,
-      "best_contact": null,
-      "best_contact_title": null,
-      "best_contact_email": null,
-      "primary_campaign": null,
-      "event_family": null,
-      "first_touch": null,
-      "last_touch": null,
-      "opp_id": null,
-      "sfdc_link": null
-    },
-    {
-      "tier": "Tier 2",
-      "company": "Cockroach Labs",
-      "account_sfdc_link": "https://clockworksystems.lightning.force.com/lightning/r/Account/001Kb00001GwirjIAB/view",
-      "owner": "Sean Coughlin",
-      "gpu_segment": "AI Builder",
-      "industry": "Software Development",
-      "target_account": false,
-      "icp_account": "High",
-      "attendee_count": 1,
-      "attendees": [
-        {
-          "name": "Spencer Kimball",
-          "title": "Co-Founder & CEO"
-        }
-      ],
-      "has_open_opportunity": false,
-      "stage": "No Open Opportunity",
-      "amount": null,
-      "best_contact": null,
-      "best_contact_title": null,
-      "best_contact_email": null,
-      "primary_campaign": null,
-      "event_family": null,
-      "first_touch": null,
-      "last_touch": null,
-      "opp_id": null,
-      "sfdc_link": null
-    },
-    {
-      "tier": "Tier 2",
-      "company": "Clockwork Systems, Inc.",
-      "account_sfdc_link": "https://clockworksystems.lightning.force.com/lightning/r/Account/001TV00000k9UUKYA2/view",
-      "owner": "Greg Mark",
-      "gpu_segment": "Partner",
-      "industry": "Software Development",
-      "target_account": false,
-      "icp_account": "High",
-      "attendee_count": 1,
-      "attendees": [
-        {
-          "name": "Prashanth Thinakaran",
-          "title": "Distinguished AI Infrastructure Engineer"
-        }
-      ],
-      "has_open_opportunity": false,
-      "stage": "No Open Opportunity",
-      "amount": null,
-      "best_contact": null,
-      "best_contact_title": null,
-      "best_contact_email": null,
-      "primary_campaign": null,
-      "event_family": null,
-      "first_touch": null,
-      "last_touch": null,
-      "opp_id": null,
-      "sfdc_link": null
-    },
-    {
-      "tier": "Tier 2",
-      "company": "AWS",
-      "account_sfdc_link": "https://clockworksystems.lightning.force.com/lightning/r/Account/001TV00000bVtfpYAC/view",
-      "owner": "Greg Mark",
-      "gpu_segment": "Hyperscaler",
-      "industry": "Technology, Information and Internet",
-      "target_account": false,
-      "icp_account": "High",
-      "attendee_count": 6,
-      "attendees": [
-        {
-          "name": "Vivek Gangasani",
-          "title": "Head of Applied AI - SageMaker Inference"
-        },
-        {
-          "name": "Kamran Khan",
-          "title": "Head of BD/GTM Annapurna ML"
-        },
-        {
-          "name": "Sergio Loureiro",
-          "title": "VP, Global Data Center Operations"
-        },
-        {
-          "name": "Diwakar Bansal",
-          "title": "Principal GenAI GTM Specialist"
-        },
-        {
-          "name": "Jim Burtoft",
-          "title": "Senior Solutions Architect WWSO"
-        },
-        {
-          "name": "Maen Suleiman",
-          "title": "Principal Tech Product Manager, Annapurna ML"
-        }
-      ],
-      "has_open_opportunity": true,
-      "stage": "00 - Prospecting",
-      "amount": null,
-      "best_contact": null,
-      "best_contact_title": null,
-      "best_contact_email": null,
-      "primary_campaign": null,
-      "event_family": null,
-      "first_touch": "2025-12-01T17:57:25.000+0000",
-      "last_touch": null,
-      "opp_id": "006TV00000SEU7lYAH",
-      "sfdc_link": "https://clockworksystems.my.salesforce.com/lightning/r/Opportunity/006TV00000SEU7lYAH/view"
-    },
-    {
-      "tier": "Tier 2",
-      "company": "Synopsys",
-      "account_sfdc_link": "https://clockworksystems.lightning.force.com/lightning/r/Account/001Kb00001Gx1uyIAB/view",
+      "company": "MasterClass",
+      "account_sfdc_link": "https://clockworksystems.lightning.force.com/lightning/r/Account/001TV00000OWM0NYAX/view",
       "owner": "Greg Mark",
       "gpu_segment": "AI Builder",
-      "industry": "Software Development",
-      "target_account": false,
-      "icp_account": "High",
-      "attendee_count": 2,
-      "attendees": [
-        {
-          "name": "Sandeep Mehndiratta",
-          "title": "SVP - AI Partnerships"
-        },
-        {
-          "name": "Anthony Matarazzo",
-          "title": "Head of Physical AI GTM"
-        }
-      ],
-      "has_open_opportunity": false,
-      "stage": "No Open Opportunity",
-      "amount": null,
-      "best_contact": null,
-      "best_contact_title": null,
-      "best_contact_email": null,
-      "primary_campaign": null,
-      "event_family": null,
-      "first_touch": null,
-      "last_touch": null,
-      "opp_id": null,
-      "sfdc_link": null
-    },
-    {
-      "tier": "Tier 2",
-      "company": "Latitude.sh",
-      "account_sfdc_link": "https://clockworksystems.lightning.force.com/lightning/r/Account/001TV00000FdZ11YAF/view",
-      "owner": "Sean Coughlin",
-      "gpu_segment": "Neocloud",
-      "industry": "IT Services and IT Consulting",
-      "target_account": false,
-      "icp_account": "High",
-      "attendee_count": 1,
-      "attendees": [
-        {
-          "name": "Cameron Daniel",
-          "title": "CTO"
-        }
-      ],
-      "has_open_opportunity": false,
-      "stage": "No Open Opportunity",
-      "amount": null,
-      "best_contact": null,
-      "best_contact_title": null,
-      "best_contact_email": null,
-      "primary_campaign": null,
-      "event_family": null,
-      "first_touch": null,
-      "last_touch": null,
-      "opp_id": null,
-      "sfdc_link": null
-    },
-    {
-      "tier": "Tier 2",
-      "company": "vCluster",
-      "account_sfdc_link": "https://clockworksystems.lightning.force.com/lightning/r/Account/001TV00000ZkgwAYAR/view",
-      "owner": "Greg Mark",
-      "gpu_segment": "Partner",
-      "industry": "Software Development",
-      "target_account": false,
-      "icp_account": "High",
-      "attendee_count": 1,
-      "attendees": [
-        {
-          "name": "Lukas Gentele",
-          "title": "CEO"
-        }
-      ],
-      "has_open_opportunity": false,
-      "stage": "No Open Opportunity",
-      "amount": null,
-      "best_contact": null,
-      "best_contact_title": null,
-      "best_contact_email": null,
-      "primary_campaign": null,
-      "event_family": null,
-      "first_touch": null,
-      "last_touch": null,
-      "opp_id": null,
-      "sfdc_link": null
-    },
-    {
-      "tier": "Tier 2",
-      "company": "SK Hynix",
-      "account_sfdc_link": "https://clockworksystems.lightning.force.com/lightning/r/Account/001TV00000CdrMeYAJ/view",
-      "owner": "Joe Tarantino",
-      "gpu_segment": "Enterprise AI Builder",
-      "industry": "Semiconductor Manufacturing",
-      "target_account": false,
-      "icp_account": "Medium",
-      "attendee_count": 1,
-      "attendees": [
-        {
-          "name": "Euicheol Lim",
-          "title": "Fellow"
-        }
-      ],
-      "has_open_opportunity": false,
-      "stage": "No Open Opportunity",
-      "amount": null,
-      "best_contact": null,
-      "best_contact_title": null,
-      "best_contact_email": null,
-      "primary_campaign": null,
-      "event_family": null,
-      "first_touch": null,
-      "last_touch": null,
-      "opp_id": null,
-      "sfdc_link": null
-    },
-    {
-      "tier": "Tier 2",
-      "company": "Solidigm",
-      "account_sfdc_link": "https://clockworksystems.lightning.force.com/lightning/r/Account/001TV00000aX0qwYAC/view",
-      "owner": "Greg Mark",
-      "gpu_segment": "Partner",
-      "industry": "Computer Hardware Manufacturing",
-      "target_account": false,
-      "icp_account": "Low",
-      "attendee_count": 1,
-      "attendees": [
-        {
-          "name": "Scott Shadley",
-          "title": "Director of Storage Planning and Pathfinding"
-        }
-      ],
-      "has_open_opportunity": false,
-      "stage": "No Open Opportunity",
-      "amount": null,
-      "best_contact": null,
-      "best_contact_title": null,
-      "best_contact_email": null,
-      "primary_campaign": null,
-      "event_family": null,
-      "first_touch": null,
-      "last_touch": null,
-      "opp_id": null,
-      "sfdc_link": null
-    },
-    {
-      "tier": "Tier 2",
-      "company": "DriveNets",
-      "account_sfdc_link": "https://clockworksystems.lightning.force.com/lightning/r/Account/001TV00000PMcycYAD/view",
-      "owner": "Sean Coughlin",
-      "gpu_segment": "Partner",
-      "industry": "Software Development",
-      "target_account": false,
-      "icp_account": "High",
-      "attendee_count": 1,
-      "attendees": [
-        {
-          "name": "Dudy Cohen",
-          "title": "VP, Product Marketing"
-        }
-      ],
-      "has_open_opportunity": false,
-      "stage": "No Open Opportunity",
-      "amount": null,
-      "best_contact": null,
-      "best_contact_title": null,
-      "best_contact_email": null,
-      "primary_campaign": null,
-      "event_family": null,
-      "first_touch": null,
-      "last_touch": null,
-      "opp_id": null,
-      "sfdc_link": null
-    },
-    {
-      "tier": "Tier 2",
-      "company": "CBRE",
-      "account_sfdc_link": "https://clockworksystems.lightning.force.com/lightning/r/Account/001Kb00001GwpwJIAR/view",
-      "owner": "Sean Coughlin",
-      "gpu_segment": "Enterprise AI Builder",
-      "industry": "Real Estate",
-      "target_account": false,
-      "icp_account": "High",
-      "attendee_count": 1,
-      "attendees": [
-        {
-          "name": "Patrick Lynch",
-          "title": "Executive Managing Director, Data Center Solutions"
-        }
-      ],
-      "has_open_opportunity": false,
-      "stage": "No Open Opportunity",
-      "amount": null,
-      "best_contact": null,
-      "best_contact_title": null,
-      "best_contact_email": null,
-      "primary_campaign": null,
-      "event_family": null,
-      "first_touch": null,
-      "last_touch": null,
-      "opp_id": null,
-      "sfdc_link": null
-    },
-    {
-      "tier": "Tier 2",
-      "company": "Aon",
-      "account_sfdc_link": "https://clockworksystems.lightning.force.com/lightning/r/Account/001TV00000CdrM0YAJ/view",
-      "owner": "Abrahem Miya",
-      "gpu_segment": "Enterprise AI Builder",
-      "industry": "Financial Services",
-      "target_account": false,
-      "icp_account": "Medium",
-      "attendee_count": 1,
-      "attendees": [
-        {
-          "name": "Brian Hearst",
-          "title": "Managing Director, Data Center & Life Sciences Builders Risk Leader"
-        }
-      ],
-      "has_open_opportunity": false,
-      "stage": "No Open Opportunity",
-      "amount": null,
-      "best_contact": null,
-      "best_contact_title": null,
-      "best_contact_email": null,
-      "primary_campaign": null,
-      "event_family": null,
-      "first_touch": null,
-      "last_touch": null,
-      "opp_id": null,
-      "sfdc_link": null
-    },
-    {
-      "tier": "Tier 2",
-      "company": "MIT",
-      "account_sfdc_link": "https://clockworksystems.lightning.force.com/lightning/r/Account/001Kb00001Gwv0QIAR/view",
-      "owner": "Sean Coughlin",
-      "gpu_segment": "Enterprise AI Builder",
-      "industry": "Higher Education",
+      "industry": "E-Learning Providers",
       "target_account": true,
-      "icp_account": "High",
-      "attendee_count": 1,
-      "attendees": [
-        {
-          "name": "Daniela Rus",
-          "title": "Director of the Computer Science & Artificial Intelligence Laboratory"
-        }
-      ],
-      "has_open_opportunity": false,
-      "stage": "No Open Opportunity",
-      "amount": null,
-      "best_contact": null,
-      "best_contact_title": null,
-      "best_contact_email": null,
-      "primary_campaign": null,
-      "event_family": null,
-      "first_touch": null,
-      "last_touch": null,
-      "opp_id": null,
-      "sfdc_link": null
-    },
-    {
-      "tier": "Tier 2",
-      "company": "Samsara",
-      "account_sfdc_link": "https://clockworksystems.lightning.force.com/lightning/r/Account/001Kb00001Gx1xDIAR/view",
-      "owner": "Greg Mark",
-      "gpu_segment": "Enterprise AI Builder",
-      "industry": "Software Development",
-      "target_account": true,
-      "icp_account": "High",
-      "attendee_count": 2,
-      "attendees": [
-        {
-          "name": "David Gal",
-          "title": "VP, Product & Engineering - Connected Equipment"
-        },
-        {
-          "name": "David Gal",
-          "title": "Vice President, Product & Engineering"
-        }
-      ],
-      "has_open_opportunity": false,
-      "stage": "No Open Opportunity",
-      "amount": null,
-      "best_contact": null,
-      "best_contact_title": null,
-      "best_contact_email": null,
-      "primary_campaign": null,
-      "event_family": null,
-      "first_touch": null,
-      "last_touch": null,
-      "opp_id": null,
-      "sfdc_link": null
-    },
-    {
-      "tier": "Tier 2",
-      "company": "GigaIO",
-      "account_sfdc_link": "https://clockworksystems.lightning.force.com/lightning/r/Account/001TV00000aWzGZYA0/view",
-      "owner": "Greg Mark",
-      "gpu_segment": "Partner",
-      "industry": "IT Services and IT Consulting",
-      "target_account": false,
-      "icp_account": "High",
-      "attendee_count": 1,
-      "attendees": [
-        {
-          "name": "Alan Benjamin",
-          "title": "President & CEO"
-        }
-      ],
-      "has_open_opportunity": false,
-      "stage": "No Open Opportunity",
-      "amount": null,
-      "best_contact": null,
-      "best_contact_title": null,
-      "best_contact_email": null,
-      "primary_campaign": null,
-      "event_family": null,
-      "first_touch": null,
-      "last_touch": null,
-      "opp_id": null,
-      "sfdc_link": null
-    },
-    {
-      "tier": "Tier 2",
-      "company": "Booking.com",
-      "account_sfdc_link": "https://clockworksystems.lightning.force.com/lightning/r/Account/001TV00000Zjm1GYAR/view",
-      "owner": "Joe Tarantino",
-      "gpu_segment": "Enterprise AI Builder",
-      "industry": "Software Development",
-      "target_account": false,
       "icp_account": "Medium",
       "attendee_count": 1,
       "attendees": [
         {
-          "name": "Alibek Datbayev",
-          "title": "AI Platform Engineering Manager"
-        }
-      ],
-      "has_open_opportunity": false,
-      "stage": "No Open Opportunity",
-      "amount": null,
-      "best_contact": null,
-      "best_contact_title": null,
-      "best_contact_email": null,
-      "primary_campaign": null,
-      "event_family": null,
-      "first_touch": null,
-      "last_touch": null,
-      "opp_id": null,
-      "sfdc_link": null
-    },
-    {
-      "tier": "Tier 2",
-      "company": "Seagate",
-      "account_sfdc_link": "https://clockworksystems.lightning.force.com/lightning/r/Account/001TV00000CdrLOYAZ/view",
-      "owner": "Joe Tarantino",
-      "gpu_segment": "Enterprise AI Builder",
-      "industry": "Computer Hardware Manufacturing",
-      "target_account": false,
-      "icp_account": "Medium",
-      "attendee_count": 1,
-      "attendees": [
-        {
-          "name": "Jason Feist",
-          "title": "SVP, Cloud Business - Products and Markets"
-        }
-      ],
-      "has_open_opportunity": false,
-      "stage": "No Open Opportunity",
-      "amount": null,
-      "best_contact": null,
-      "best_contact_title": null,
-      "best_contact_email": null,
-      "primary_campaign": null,
-      "event_family": null,
-      "first_touch": null,
-      "last_touch": null,
-      "opp_id": null,
-      "sfdc_link": null
-    },
-    {
-      "tier": "Tier 2",
-      "company": "St. Jude Children's Research Hospital",
-      "account_sfdc_link": "https://clockworksystems.lightning.force.com/lightning/r/Account/001TV00000aWrfbYAC/view",
-      "owner": "Chris Bowen",
-      "gpu_segment": "Enterprise AI Builder",
-      "industry": "Hospitals and Health Care",
-      "target_account": false,
-      "icp_account": "High",
-      "attendee_count": 1,
-      "attendees": [
-        {
-          "name": "Ed Suh",
-          "title": "Vice President, Research Informatics"
-        }
-      ],
-      "has_open_opportunity": false,
-      "stage": "No Open Opportunity",
-      "amount": null,
-      "best_contact": null,
-      "best_contact_title": null,
-      "best_contact_email": null,
-      "primary_campaign": null,
-      "event_family": null,
-      "first_touch": null,
-      "last_touch": null,
-      "opp_id": null,
-      "sfdc_link": null
-    },
-    {
-      "tier": "Tier 2",
-      "company": "Dnotitia",
-      "account_sfdc_link": "https://clockworksystems.lightning.force.com/lightning/r/Account/001TV00000dxR5tYAE/view",
-      "owner": "Joe Tarantino",
-      "gpu_segment": "AI Builder",
-      "industry": "IT System Design Services",
-      "target_account": false,
-      "icp_account": "Medium",
-      "attendee_count": 1,
-      "attendees": [
-        {
-          "name": "Se-Hyun Yang",
-          "title": "CTO"
-        }
-      ],
-      "has_open_opportunity": false,
-      "stage": "No Open Opportunity",
-      "amount": null,
-      "best_contact": null,
-      "best_contact_title": null,
-      "best_contact_email": null,
-      "primary_campaign": null,
-      "event_family": null,
-      "first_touch": null,
-      "last_touch": null,
-      "opp_id": null,
-      "sfdc_link": null
-    },
-    {
-      "tier": "Tier 3",
-      "company": "Mirantis",
-      "account_sfdc_link": "https://clockworksystems.lightning.force.com/lightning/r/Account/001Kb00001Gx1odIAB/view",
-      "owner": "Greg Mark",
-      "gpu_segment": "Partner",
-      "industry": "Software Development",
-      "target_account": false,
-      "icp_account": "High",
-      "attendee_count": 2,
-      "attendees": [
-        {
-          "name": "Stephen Frassetti",
-          "title": "Field CTO"
-        },
-        {
-          "name": "Neil Overmon",
-          "title": "Senior Director of Solution Architecture"
-        }
-      ],
-      "has_open_opportunity": true,
-      "stage": "00 - Prospecting",
-      "amount": 200000.0,
-      "best_contact": "Ian Martinez",
-      "best_contact_title": "President / Vice President",
-      "best_contact_email": "imartinez@mirantis.com",
-      "primary_campaign": null,
-      "event_family": null,
-      "first_touch": "2026-08-03T16:47:12.000+0000",
-      "last_touch": "2026-09-15",
-      "opp_id": "006TV00000cj5vJYAQ",
-      "sfdc_link": "https://clockworksystems.my.salesforce.com/lightning/r/Opportunity/006TV00000cj5vJYAQ/view"
-    },
-    {
-      "tier": "Tier 3",
-      "company": "Qualcomm",
-      "account_sfdc_link": "https://clockworksystems.lightning.force.com/lightning/r/Account/001Kb00001GwpvxIAB/view",
-      "owner": "Greg Mark",
-      "gpu_segment": "Partner",
-      "industry": "Telecommunications",
-      "target_account": false,
-      "icp_account": "Medium",
-      "attendee_count": 2,
-      "attendees": [
-        {
-          "name": "Tony Pialis",
-          "title": "EVP & GM, Data Center"
-        },
-        {
-          "name": "Vinesh Sukumar",
-          "title": "VP, AI/ML Product Management"
-        }
-      ],
-      "has_open_opportunity": false,
-      "stage": "No Open Opportunity",
-      "amount": null,
-      "best_contact": null,
-      "best_contact_title": null,
-      "best_contact_email": null,
-      "primary_campaign": null,
-      "event_family": null,
-      "first_touch": null,
-      "last_touch": null,
-      "opp_id": null,
-      "sfdc_link": null
-    },
-    {
-      "tier": "Tier 3",
-      "company": "Lightmatter",
-      "account_sfdc_link": "https://clockworksystems.lightning.force.com/lightning/r/Account/001TV00000dxPRAYA2/view",
-      "owner": "Greg Mark",
-      "gpu_segment": "Partner",
-      "industry": "Computer Hardware Manufacturing",
-      "target_account": false,
-      "icp_account": "Medium",
-      "attendee_count": 1,
-      "attendees": [
-        {
-          "name": "Nick Harris",
-          "title": "Founder & CEO"
-        }
-      ],
-      "has_open_opportunity": false,
-      "stage": "No Open Opportunity",
-      "amount": null,
-      "best_contact": null,
-      "best_contact_title": null,
-      "best_contact_email": null,
-      "primary_campaign": null,
-      "event_family": null,
-      "first_touch": null,
-      "last_touch": null,
-      "opp_id": null,
-      "sfdc_link": null
-    },
-    {
-      "tier": "Tier 3",
-      "company": "Zoetis",
-      "account_sfdc_link": "https://clockworksystems.lightning.force.com/lightning/r/Account/001Kb00001Gwq0rIAB/view",
-      "owner": "Sean Coughlin",
-      "gpu_segment": "Enterprise AI Builder",
-      "industry": "Pharmaceutical Manufacturing",
-      "target_account": false,
-      "icp_account": "Medium",
-      "attendee_count": 1,
-      "attendees": [
-        {
-          "name": "Keith Sarbaugh",
-          "title": "EVP & Chief Digital and Technology Officer"
-        }
-      ],
-      "has_open_opportunity": false,
-      "stage": "No Open Opportunity",
-      "amount": null,
-      "best_contact": null,
-      "best_contact_title": null,
-      "best_contact_email": null,
-      "primary_campaign": null,
-      "event_family": null,
-      "first_touch": null,
-      "last_touch": null,
-      "opp_id": null,
-      "sfdc_link": null
-    },
-    {
-      "tier": "Tier 3",
-      "company": "Poshmark",
-      "account_sfdc_link": "https://clockworksystems.lightning.force.com/lightning/r/Account/001TV00000h9rKgYAI/view",
-      "owner": "Greg Mark",
-      "gpu_segment": "Enterprise AI Builder",
-      "industry": "Retail Apparel and Fashion",
-      "target_account": false,
-      "icp_account": "Medium",
-      "attendee_count": 1,
-      "attendees": [
-        {
-          "name": "Mahesh Pasupuleti",
-          "title": "VP, ML & Data Infra"
-        }
-      ],
-      "has_open_opportunity": false,
-      "stage": "No Open Opportunity",
-      "amount": null,
-      "best_contact": null,
-      "best_contact_title": null,
-      "best_contact_email": null,
-      "primary_campaign": null,
-      "event_family": null,
-      "first_touch": null,
-      "last_touch": null,
-      "opp_id": null,
-      "sfdc_link": null
-    },
-    {
-      "tier": "Tier 3",
-      "company": "Red Hat",
-      "account_sfdc_link": "https://clockworksystems.lightning.force.com/lightning/r/Account/001Kb00001GwiuGIAR/view",
-      "owner": "Sean Coughlin",
-      "gpu_segment": "Partner",
-      "industry": "Software Development",
-      "target_account": false,
-      "icp_account": "High",
-      "attendee_count": 1,
-      "attendees": [
-        {
-          "name": "Grace Ableidinger",
-          "title": "AI Developer Advocate"
-        }
-      ],
-      "has_open_opportunity": false,
-      "stage": "No Open Opportunity",
-      "amount": null,
-      "best_contact": null,
-      "best_contact_title": null,
-      "best_contact_email": null,
-      "primary_campaign": null,
-      "event_family": null,
-      "first_touch": null,
-      "last_touch": null,
-      "opp_id": null,
-      "sfdc_link": null
-    },
-    {
-      "tier": "Tier 3",
-      "company": "MinIO",
-      "account_sfdc_link": "https://clockworksystems.lightning.force.com/lightning/r/Account/001Kb00001GwitYIAR/view",
-      "owner": "Greg Mark",
-      "gpu_segment": "AI Builder",
-      "industry": "Software Development",
-      "target_account": false,
-      "icp_account": "High",
-      "attendee_count": 1,
-      "attendees": [
-        {
-          "name": "Denny Kalaf",
-          "title": "Field Architect"
-        }
-      ],
-      "has_open_opportunity": false,
-      "stage": "No Open Opportunity",
-      "amount": null,
-      "best_contact": null,
-      "best_contact_title": null,
-      "best_contact_email": null,
-      "primary_campaign": null,
-      "event_family": null,
-      "first_touch": null,
-      "last_touch": null,
-      "opp_id": null,
-      "sfdc_link": null
-    },
-    {
-      "tier": "Tier 3",
-      "company": "Kentik",
-      "account_sfdc_link": "https://clockworksystems.lightning.force.com/lightning/r/Account/001TV00000kQ6TuYAK/view",
-      "owner": "Greg Mark",
-      "gpu_segment": "Partner",
-      "industry": "Computer Networking Products",
-      "target_account": false,
-      "icp_account": "Medium",
-      "attendee_count": 1,
-      "attendees": [
-        {
-          "name": "Justin Ryburn",
-          "title": "VP, Global Solution Engineering & Field CTO"
-        }
-      ],
-      "has_open_opportunity": false,
-      "stage": "No Open Opportunity",
-      "amount": null,
-      "best_contact": null,
-      "best_contact_title": null,
-      "best_contact_email": null,
-      "primary_campaign": null,
-      "event_family": null,
-      "first_touch": null,
-      "last_touch": null,
-      "opp_id": null,
-      "sfdc_link": null
-    },
-    {
-      "tier": "Tier 3",
-      "company": "CXL Consortium",
-      "account_sfdc_link": "https://clockworksystems.lightning.force.com/lightning/r/Account/001TV00000aWXdiYAG/view",
-      "owner": "Greg Mark",
-      "gpu_segment": "Partner",
-      "industry": "Computer Networking Products",
-      "target_account": false,
-      "icp_account": "Low",
-      "attendee_count": 1,
-      "attendees": [
-        {
-          "name": "Debendra Das Sharma",
-          "title": "Board Chair"
-        }
-      ],
-      "has_open_opportunity": false,
-      "stage": "No Open Opportunity",
-      "amount": null,
-      "best_contact": null,
-      "best_contact_title": null,
-      "best_contact_email": null,
-      "primary_campaign": null,
-      "event_family": null,
-      "first_touch": null,
-      "last_touch": null,
-      "opp_id": null,
-      "sfdc_link": null
-    },
-    {
-      "tier": "Tier 3",
-      "company": "Upscale AI",
-      "account_sfdc_link": "https://clockworksystems.lightning.force.com/lightning/r/Account/001TV00000WYECfYAP/view",
-      "owner": "Greg Mark",
-      "gpu_segment": "Partner",
-      "industry": "Computer Networking Products",
-      "target_account": false,
-      "icp_account": "Medium",
-      "attendee_count": 1,
-      "attendees": [
-        {
-          "name": "Deepti Chandra",
-          "title": "VP, Product & Marketing"
-        }
-      ],
-      "has_open_opportunity": false,
-      "stage": "No Open Opportunity",
-      "amount": null,
-      "best_contact": null,
-      "best_contact_title": null,
-      "best_contact_email": null,
-      "primary_campaign": null,
-      "event_family": null,
-      "first_touch": null,
-      "last_touch": null,
-      "opp_id": null,
-      "sfdc_link": null
-    },
-    {
-      "tier": "Tier 3",
-      "company": "Digital Realty",
-      "account_sfdc_link": "https://clockworksystems.lightning.force.com/lightning/r/Account/001TV00000CdrPEYAZ/view",
-      "owner": "Greg Mark",
-      "gpu_segment": "Partner",
-      "industry": "IT Services and IT Consulting",
-      "target_account": false,
-      "icp_account": "Medium",
-      "attendee_count": 1,
-      "attendees": [
-        {
-          "name": "Chris Sharp",
-          "title": "CTO"
-        }
-      ],
-      "has_open_opportunity": false,
-      "stage": "No Open Opportunity",
-      "amount": null,
-      "best_contact": null,
-      "best_contact_title": null,
-      "best_contact_email": null,
-      "primary_campaign": null,
-      "event_family": null,
-      "first_touch": null,
-      "last_touch": null,
-      "opp_id": null,
-      "sfdc_link": null
-    },
-    {
-      "tier": "Tier 3",
-      "company": "Equinix",
-      "account_sfdc_link": "https://clockworksystems.lightning.force.com/lightning/r/Account/001Kb00001GwpzTIAR/view",
-      "owner": "Greg Mark",
-      "gpu_segment": "Partner",
-      "industry": "Internet Publishing",
-      "target_account": false,
-      "icp_account": "Medium",
-      "attendee_count": 1,
-      "attendees": [
-        {
-          "name": "Jon Lin",
-          "title": "Chief Business Officer"
-        }
-      ],
-      "has_open_opportunity": false,
-      "stage": "No Open Opportunity",
-      "amount": null,
-      "best_contact": null,
-      "best_contact_title": null,
-      "best_contact_email": null,
-      "primary_campaign": null,
-      "event_family": null,
-      "first_touch": null,
-      "last_touch": null,
-      "opp_id": null,
-      "sfdc_link": null
-    },
-    {
-      "tier": "Tier 3",
-      "company": "Vertiv",
-      "account_sfdc_link": "https://clockworksystems.lightning.force.com/lightning/r/Account/001TV00000CdrNhYAJ/view",
-      "owner": "Sean Coughlin",
-      "gpu_segment": "Partner",
-      "industry": "Appliances, Electrical, and Electronics Manufacturing",
-      "target_account": false,
-      "icp_account": "High",
-      "attendee_count": 1,
-      "attendees": [
-        {
-          "name": "Steve Madara",
-          "title": "Distinguished Engineer and VP Thermal"
-        }
-      ],
-      "has_open_opportunity": false,
-      "stage": "No Open Opportunity",
-      "amount": null,
-      "best_contact": null,
-      "best_contact_title": null,
-      "best_contact_email": null,
-      "primary_campaign": null,
-      "event_family": null,
-      "first_touch": null,
-      "last_touch": null,
-      "opp_id": null,
-      "sfdc_link": null
-    },
-    {
-      "tier": "Tier 3",
-      "company": "Axelera AI",
-      "account_sfdc_link": "https://clockworksystems.lightning.force.com/lightning/r/Account/001TV00000XEJO2YAP/view",
-      "owner": "Joe Tarantino",
-      "gpu_segment": "AI Builder",
-      "industry": "Semiconductor Manufacturing",
-      "target_account": false,
-      "icp_account": "Low",
-      "attendee_count": 3,
-      "attendees": [
-        {
-          "name": "Fabrizio Del Maffeo",
-          "title": "Co-Founder & CEO"
-        },
-        {
-          "name": "Manuel Botija",
-          "title": "VP - Product Management"
-        },
-        {
-          "name": "Manuel Botija",
-          "title": "Vice President - Product Management"
-        }
-      ],
-      "has_open_opportunity": false,
-      "stage": "No Open Opportunity",
-      "amount": null,
-      "best_contact": null,
-      "best_contact_title": null,
-      "best_contact_email": null,
-      "primary_campaign": null,
-      "event_family": null,
-      "first_touch": null,
-      "last_touch": null,
-      "opp_id": null,
-      "sfdc_link": null
-    },
-    {
-      "tier": "Tier 3",
-      "company": "Bluebeam",
-      "account_sfdc_link": "https://clockworksystems.lightning.force.com/lightning/r/Account/001Kb00001Gx1oFIAR/view",
-      "owner": "Greg Mark",
-      "gpu_segment": "Enterprise AI Builder",
-      "industry": "Software Development",
-      "target_account": false,
-      "icp_account": "Medium",
-      "attendee_count": 1,
-      "attendees": [
-        {
-          "name": "Usman Shuja",
-          "title": "CEO"
-        }
-      ],
-      "has_open_opportunity": false,
-      "stage": "No Open Opportunity",
-      "amount": null,
-      "best_contact": null,
-      "best_contact_title": null,
-      "best_contact_email": null,
-      "primary_campaign": null,
-      "event_family": null,
-      "first_touch": null,
-      "last_touch": null,
-      "opp_id": null,
-      "sfdc_link": null
-    },
-    {
-      "tier": "Tier 3",
-      "company": "Keysight Technologies, Inc.",
-      "account_sfdc_link": "https://clockworksystems.lightning.force.com/lightning/r/Account/001Kb00001GwitBIAR/view",
-      "owner": "Greg Mark",
-      "gpu_segment": "Partner",
-      "industry": "Appliances, Electrical, and Electronics Manufacturing",
-      "target_account": false,
-      "icp_account": "High",
-      "attendee_count": 1,
-      "attendees": [
-        {
-          "name": "Venkat Pullela",
-          "title": "CTO, AI Infrastructure"
-        }
-      ],
-      "has_open_opportunity": false,
-      "stage": "No Open Opportunity",
-      "amount": null,
-      "best_contact": null,
-      "best_contact_title": null,
-      "best_contact_email": null,
-      "primary_campaign": null,
-      "event_family": null,
-      "first_touch": null,
-      "last_touch": null,
-      "opp_id": null,
-      "sfdc_link": null
-    },
-    {
-      "tier": "Tier 3",
-      "company": "Legrand",
-      "account_sfdc_link": "https://clockworksystems.lightning.force.com/lightning/r/Account/001TV00000Q78VDYAZ/view",
-      "owner": "Joe Tarantino",
-      "gpu_segment": "Partner",
-      "industry": "Appliances, Electrical, and Electronics Manufacturing",
-      "target_account": false,
-      "icp_account": "Low",
-      "attendee_count": 1,
-      "attendees": [
-        {
-          "name": "David Skeans",
-          "title": "SVP of Sales"
+          "name": "Mandar Bapaye",
+          "title": "CPO and CTO"
         }
       ],
       "has_open_opportunity": false,
@@ -2752,18 +479,18 @@
     },
     {
       "tier": "Tier 4",
-      "company": "General Catalyst",
-      "account_sfdc_link": "https://clockworksystems.lightning.force.com/lightning/r/Account/001TV00000Q78VTYAZ/view",
-      "owner": "Greg Mark",
-      "gpu_segment": "Partner",
-      "industry": "Venture Capital and Private Equity Principals",
+      "company": "LlamaIndex",
+      "account_sfdc_link": "https://clockworksystems.lightning.force.com/lightning/r/Account/001TV00000wfSiTYAU/view",
+      "owner": "Abhijeet Bhanoori",
+      "gpu_segment": null,
+      "industry": null,
       "target_account": false,
-      "icp_account": "Low",
+      "icp_account": null,
       "attendee_count": 1,
       "attendees": [
         {
-          "name": "Alexis Black Bj\u00f6rlin",
-          "title": "Chief Strategy Officer"
+          "name": "Jerry Liu",
+          "title": "Co-Founder & CEO"
         }
       ],
       "has_open_opportunity": false,
@@ -2781,34 +508,47 @@
     },
     {
       "tier": "Tier 4",
-      "company": "Marvell Technology",
-      "account_sfdc_link": "https://clockworksystems.lightning.force.com/lightning/r/Account/001Kb00001Gx1v2IAB/view",
+      "company": "Crowdstrike",
+      "account_sfdc_link": "https://clockworksystems.lightning.force.com/lightning/r/Account/001Kb00001GwwojIAB/view",
       "owner": "Greg Mark",
-      "gpu_segment": "Partner",
-      "industry": "Semiconductor Manufacturing",
+      "gpu_segment": "Enterprise AI Builder",
+      "industry": "Computer and Network Security",
       "target_account": false,
-      "icp_account": "Low",
-      "attendee_count": 5,
+      "icp_account": "Medium",
+      "attendee_count": 1,
       "attendees": [
         {
-          "name": "Dave Lazovsky",
-          "title": "EVP & GM, Data Center Networking Business Group"
-        },
+          "name": "Bartley Richardson",
+          "title": "Chief of AI"
+        }
+      ],
+      "has_open_opportunity": false,
+      "stage": "No Open Opportunity",
+      "amount": null,
+      "best_contact": null,
+      "best_contact_title": null,
+      "best_contact_email": null,
+      "primary_campaign": null,
+      "event_family": null,
+      "first_touch": null,
+      "last_touch": null,
+      "opp_id": null,
+      "sfdc_link": null
+    },
+    {
+      "tier": "Tier 4",
+      "company": "Cline",
+      "account_sfdc_link": "https://clockworksystems.lightning.force.com/lightning/r/Account/001TV00000wfSkRYAU/view",
+      "owner": "Abhijeet Bhanoori",
+      "gpu_segment": null,
+      "industry": null,
+      "target_account": false,
+      "icp_account": null,
+      "attendee_count": 1,
+      "attendees": [
         {
-          "name": "Russ Esmacher",
-          "title": "SVP & GM, Data Center Interconnect"
-        },
-        {
-          "name": "Preet Virk",
-          "title": "SVP, Photonic Fabric Business Unit"
-        },
-        {
-          "name": "Dave Lazovsky",
-          "title": "Executive Vice President and General Manager"
-        },
-        {
-          "name": "Preet Virk",
-          "title": "Senior Vice President, Photonic Fabric Business Unit"
+          "name": "Renee Huang",
+          "title": "CEO"
         }
       ],
       "has_open_opportunity": false,
@@ -2836,8 +576,8 @@
       "attendee_count": 1,
       "attendees": [
         {
-          "name": "Ramin Hasani",
-          "title": "Co-Founder & CEO"
+          "name": "Jeffrey Li",
+          "title": "COO (Head of Product & GTM)"
         }
       ],
       "has_open_opportunity": false,
@@ -2855,233 +595,18 @@
     },
     {
       "tier": "Tier 4",
-      "company": "Western Digital",
-      "account_sfdc_link": "https://clockworksystems.lightning.force.com/lightning/r/Account/001Kb00001GwpwcIAB/view",
-      "owner": "Greg Mark",
-      "gpu_segment": "Partner",
-      "industry": "Computer Hardware Manufacturing",
-      "target_account": false,
-      "icp_account": "Medium",
-      "attendee_count": 1,
-      "attendees": [
-        {
-          "name": "Ahmed Shihab",
-          "title": "Chief Product Officer"
-        }
-      ],
-      "has_open_opportunity": false,
-      "stage": "No Open Opportunity",
-      "amount": null,
-      "best_contact": null,
-      "best_contact_title": null,
-      "best_contact_email": null,
-      "primary_campaign": null,
-      "event_family": null,
-      "first_touch": null,
-      "last_touch": null,
-      "opp_id": null,
-      "sfdc_link": null
-    },
-    {
-      "tier": "Tier 4",
-      "company": "Cognichip",
-      "account_sfdc_link": "https://clockworksystems.lightning.force.com/lightning/r/Account/001TV00000wfSqYYAU/view",
-      "owner": "Abhijeet Bhanoori",
-      "gpu_segment": null,
-      "industry": null,
-      "target_account": false,
-      "icp_account": null,
-      "attendee_count": 2,
-      "attendees": [
-        {
-          "name": "Stelios Diamantidis",
-          "title": "Chief Product Officer"
-        },
-        {
-          "name": "Simon Sabato",
-          "title": "Co-Founder & Chief Architect"
-        }
-      ],
-      "has_open_opportunity": false,
-      "stage": "No Open Opportunity",
-      "amount": null,
-      "best_contact": null,
-      "best_contact_title": null,
-      "best_contact_email": null,
-      "primary_campaign": null,
-      "event_family": null,
-      "first_touch": null,
-      "last_touch": null,
-      "opp_id": null,
-      "sfdc_link": null
-    },
-    {
-      "tier": "Tier 4",
-      "company": "Adaption Labs",
-      "account_sfdc_link": "https://clockworksystems.lightning.force.com/lightning/r/Account/001TV00000wfSpcYAE/view",
-      "owner": "Abhijeet Bhanoori",
-      "gpu_segment": null,
-      "industry": "Software Development",
-      "target_account": false,
-      "icp_account": null,
-      "attendee_count": 1,
-      "attendees": [
-        {
-          "name": "Sudip Roy",
-          "title": "Co-Founder & CTO"
-        }
-      ],
-      "has_open_opportunity": false,
-      "stage": "No Open Opportunity",
-      "amount": null,
-      "best_contact": null,
-      "best_contact_title": null,
-      "best_contact_email": null,
-      "primary_campaign": null,
-      "event_family": null,
-      "first_touch": null,
-      "last_touch": null,
-      "opp_id": null,
-      "sfdc_link": null
-    },
-    {
-      "tier": "Tier 4",
-      "company": "Fiddler AI",
-      "account_sfdc_link": "https://clockworksystems.lightning.force.com/lightning/r/Account/001TV00000wfSb6YAE/view",
-      "owner": "Abhijeet Bhanoori",
-      "gpu_segment": null,
-      "industry": "Software Development",
-      "target_account": false,
-      "icp_account": null,
-      "attendee_count": 1,
-      "attendees": [
-        {
-          "name": "Krishna Gade",
-          "title": "Founder & CEO"
-        }
-      ],
-      "has_open_opportunity": false,
-      "stage": "No Open Opportunity",
-      "amount": null,
-      "best_contact": null,
-      "best_contact_title": null,
-      "best_contact_email": null,
-      "primary_campaign": null,
-      "event_family": null,
-      "first_touch": null,
-      "last_touch": null,
-      "opp_id": null,
-      "sfdc_link": null
-    },
-    {
-      "tier": "Tier 4",
-      "company": "Coder",
-      "account_sfdc_link": "https://clockworksystems.lightning.force.com/lightning/r/Account/001TV00000wfSqXYAU/view",
-      "owner": "Abhijeet Bhanoori",
-      "gpu_segment": null,
-      "industry": null,
-      "target_account": false,
-      "icp_account": null,
-      "attendee_count": 2,
-      "attendees": [
-        {
-          "name": "Nicky Pike",
-          "title": "Americas Field CTO"
-        },
-        {
-          "name": "David Fraley",
-          "title": "Product Manager"
-        }
-      ],
-      "has_open_opportunity": false,
-      "stage": "No Open Opportunity",
-      "amount": null,
-      "best_contact": null,
-      "best_contact_title": null,
-      "best_contact_email": null,
-      "primary_campaign": null,
-      "event_family": null,
-      "first_touch": null,
-      "last_touch": null,
-      "opp_id": null,
-      "sfdc_link": null
-    },
-    {
-      "tier": "Tier 4",
-      "company": "Rafay",
-      "account_sfdc_link": "https://clockworksystems.lightning.force.com/lightning/r/Account/001TV00000Q6tXTYAZ/view",
-      "owner": "Greg Mark",
-      "gpu_segment": "Partner",
-      "industry": "Software Development",
-      "target_account": false,
-      "icp_account": "Medium",
-      "attendee_count": 1,
-      "attendees": [
-        {
-          "name": "Haseeb Budhani",
-          "title": "Co-Founder & CEO"
-        }
-      ],
-      "has_open_opportunity": false,
-      "stage": "No Open Opportunity",
-      "amount": null,
-      "best_contact": null,
-      "best_contact_title": null,
-      "best_contact_email": null,
-      "primary_campaign": null,
-      "event_family": null,
-      "first_touch": null,
-      "last_touch": null,
-      "opp_id": null,
-      "sfdc_link": null
-    },
-    {
-      "tier": "Tier 4",
-      "company": "Cornelis Networks",
-      "account_sfdc_link": "https://clockworksystems.lightning.force.com/lightning/r/Account/001TV00000aWxQ3YAK/view",
+      "company": "Parallel Web Systems",
+      "account_sfdc_link": "https://clockworksystems.lightning.force.com/lightning/r/Account/001TV00000vB8hNYAS/view",
       "owner": "Sean Coughlin",
-      "gpu_segment": "Partner",
-      "industry": "Computer Networking Products",
+      "gpu_segment": null,
+      "industry": "Software",
       "target_account": false,
-      "icp_account": "Medium",
-      "attendee_count": 2,
-      "attendees": [
-        {
-          "name": "Lisa Spelman",
-          "title": "CEO"
-        },
-        {
-          "name": "Nishant Lodha",
-          "title": "Senior Director, AI Networking"
-        }
-      ],
-      "has_open_opportunity": false,
-      "stage": "No Open Opportunity",
-      "amount": null,
-      "best_contact": null,
-      "best_contact_title": null,
-      "best_contact_email": null,
-      "primary_campaign": null,
-      "event_family": null,
-      "first_touch": null,
-      "last_touch": null,
-      "opp_id": null,
-      "sfdc_link": null
-    },
-    {
-      "tier": "Tier 4",
-      "company": "Rambus Labs",
-      "account_sfdc_link": "https://clockworksystems.lightning.force.com/lightning/r/Account/001TV00000e1a2SYAQ/view",
-      "owner": "Greg Mark",
-      "gpu_segment": "Partner",
-      "industry": "Semiconductor Manufacturing",
-      "target_account": false,
-      "icp_account": "Low",
+      "icp_account": null,
       "attendee_count": 1,
       "attendees": [
         {
-          "name": "Steven Woo",
-          "title": "Fellow & Distinguished Inventor"
+          "name": "Pranay Reddy Samala",
+          "title": "Member of Technical Staff"
         }
       ],
       "has_open_opportunity": false,
@@ -3099,167 +624,18 @@
     },
     {
       "tier": "Tier 4",
-      "company": "Amphenol Corporation",
-      "account_sfdc_link": "https://clockworksystems.lightning.force.com/lightning/r/Account/001Kb00001GwpxGIAR/view",
-      "owner": "Sean Coughlin",
-      "gpu_segment": "Partner",
-      "industry": "Appliances, Electrical, and Electronics Manufacturing",
-      "target_account": false,
-      "icp_account": "Low",
-      "attendee_count": 1,
-      "attendees": [
-        {
-          "name": "Albert Chen",
-          "title": "Director of Applications Engineering and Solutions Architecture"
-        }
-      ],
-      "has_open_opportunity": false,
-      "stage": "No Open Opportunity",
-      "amount": null,
-      "best_contact": null,
-      "best_contact_title": null,
-      "best_contact_email": null,
-      "primary_campaign": null,
-      "event_family": null,
-      "first_touch": null,
-      "last_touch": null,
-      "opp_id": null,
-      "sfdc_link": null
-    },
-    {
-      "tier": "Tier 4",
-      "company": "GridCARE",
-      "account_sfdc_link": "https://clockworksystems.lightning.force.com/lightning/r/Account/001TV00000k9bU9YAI/view",
-      "owner": "Greg Mark",
-      "gpu_segment": "Partner",
-      "industry": "Energy Technology",
-      "target_account": false,
-      "icp_account": "Low",
-      "attendee_count": 1,
-      "attendees": [
-        {
-          "name": "Alaina Bookstein",
-          "title": "SVP, Head of Business Development"
-        }
-      ],
-      "has_open_opportunity": false,
-      "stage": "No Open Opportunity",
-      "amount": null,
-      "best_contact": null,
-      "best_contact_title": null,
-      "best_contact_email": null,
-      "primary_campaign": null,
-      "event_family": null,
-      "first_touch": null,
-      "last_touch": null,
-      "opp_id": null,
-      "sfdc_link": null
-    },
-    {
-      "tier": "Tier 4",
-      "company": "Uptime Institute",
-      "account_sfdc_link": "https://clockworksystems.lightning.force.com/lightning/r/Account/001TV00000aX0R7YAK/view",
-      "owner": "Sean Coughlin",
-      "gpu_segment": "Partner",
-      "industry": "Information Technology and Services",
-      "target_account": false,
-      "icp_account": "Low",
-      "attendee_count": 2,
-      "attendees": [
-        {
-          "name": "Naveed Saeed",
-          "title": "VP, Global Technical Management"
-        },
-        {
-          "name": "Naveed Saeed",
-          "title": "Sr. Vice President - Topology & Global Tier Authority"
-        }
-      ],
-      "has_open_opportunity": false,
-      "stage": "No Open Opportunity",
-      "amount": null,
-      "best_contact": null,
-      "best_contact_title": null,
-      "best_contact_email": null,
-      "primary_campaign": null,
-      "event_family": null,
-      "first_touch": null,
-      "last_touch": null,
-      "opp_id": null,
-      "sfdc_link": null
-    },
-    {
-      "tier": "Tier 4",
-      "company": "Physical Intelligence",
-      "account_sfdc_link": "https://clockworksystems.lightning.force.com/lightning/r/Account/001TV00000w0KPXYA2/view",
+      "company": "Recursive Superintelligence",
+      "account_sfdc_link": "https://clockworksystems.lightning.force.com/lightning/r/Account/001TV00000w0KPZYA2/view",
       "owner": "Abhijeet Bhanoori",
       "gpu_segment": null,
-      "industry": "Technology",
+      "industry": "Software",
       "target_account": false,
       "icp_account": null,
       "attendee_count": 1,
       "attendees": [
         {
-          "name": "Karan Dhabalia",
-          "title": "Roboticist"
-        }
-      ],
-      "has_open_opportunity": false,
-      "stage": "No Open Opportunity",
-      "amount": null,
-      "best_contact": null,
-      "best_contact_title": null,
-      "best_contact_email": null,
-      "primary_campaign": null,
-      "event_family": null,
-      "first_touch": null,
-      "last_touch": null,
-      "opp_id": null,
-      "sfdc_link": null
-    },
-    {
-      "tier": "Tier 4",
-      "company": "Micron Technology",
-      "account_sfdc_link": "https://clockworksystems.lightning.force.com/lightning/r/Account/001Kb00001Gwpx9IAB/view",
-      "owner": "Greg Mark",
-      "gpu_segment": "Partner",
-      "industry": "Semiconductor Manufacturing",
-      "target_account": false,
-      "icp_account": "Medium",
-      "attendee_count": 1,
-      "attendees": [
-        {
-          "name": "Karthik Ganesan",
-          "title": "Technical Fellow"
-        }
-      ],
-      "has_open_opportunity": false,
-      "stage": "No Open Opportunity",
-      "amount": null,
-      "best_contact": null,
-      "best_contact_title": null,
-      "best_contact_email": null,
-      "primary_campaign": null,
-      "event_family": null,
-      "first_touch": null,
-      "last_touch": null,
-      "opp_id": null,
-      "sfdc_link": null
-    },
-    {
-      "tier": "Tier 4",
-      "company": "FarmGPU",
-      "account_sfdc_link": "https://clockworksystems.lightning.force.com/lightning/r/Account/001TV00000tk5EmYAI/view",
-      "owner": "Anita Pandey",
-      "gpu_segment": null,
-      "industry": null,
-      "target_account": false,
-      "icp_account": null,
-      "attendee_count": 1,
-      "attendees": [
-        {
-          "name": "Jonmichael (JM) Hands",
-          "title": "CEO"
+          "name": "Tim Rockt\u00e4schel",
+          "title": "Co-founder"
         }
       ],
       "has_open_opportunity": false,
@@ -3278,1120 +654,128 @@
   ],
   "unmatched_companies": [
     {
-      "company": "Credo",
-      "attendee_count": 4,
-      "attendees": [
-        {
-          "name": "Rajan Pai",
-          "title": "VP, Optical Technologies"
-        },
-        {
-          "name": "Don Barnetson",
-          "title": "SVP, Product"
-        },
-        {
-          "name": "Vishal Shah",
-          "title": "VP of Product, OmniConnect and PCIe"
-        },
-        {
-          "name": "Vishal Shah",
-          "title": "Vice President of Product, OmniConnect and PCIe"
-        }
-      ]
-    },
-    {
-      "company": "EE Times",
+      "company": "Ford Motor Company",
       "attendee_count": 2,
       "attendees": [
         {
-          "name": "Sally Ward-Foxton",
-          "title": "Senior Reporter"
+          "name": "Ken Leisenring",
+          "title": "Chief Engineer, Vehicle Propulsion Systems Engineering"
         },
         {
-          "name": "Sally Ward-Foxton",
-          "title": "Senior Reporter"
+          "name": "John Bogema",
+          "title": "Senior Manager - Propulsion CAE and Data"
         }
       ]
     },
     {
-      "company": "Epic Semi",
-      "attendee_count": 2,
-      "attendees": [
-        {
-          "name": "Chloe Jian Ma",
-          "title": "Chief Business Officer"
-        },
-        {
-          "name": "Jessica Dai",
-          "title": "Field Application Engineer"
-        }
-      ]
-    },
-    {
-      "company": "Mortenson",
-      "attendee_count": 2,
-      "attendees": [
-        {
-          "name": "Steve Knighton",
-          "title": "VP GM, Data Center Solutions"
-        },
-        {
-          "name": "Steve Knighton",
-          "title": "VP General Manager, Data Center Solutions"
-        }
-      ]
-    },
-    {
-      "company": "Airsys",
-      "attendee_count": 2,
-      "attendees": [
-        {
-          "name": "Tony Fischels",
-          "title": "VP, PowerOne"
-        },
-        {
-          "name": "Tony Fischels",
-          "title": "Vice President, PowerOne"
-        }
-      ]
-    },
-    {
-      "company": "Agility Robotics",
-      "attendee_count": 2,
-      "attendees": [
-        {
-          "name": "Jonathan Hurst",
-          "title": "Co-Founder & Chief Robot Officer"
-        },
-        {
-          "name": "Ahmet Asarkaya",
-          "title": "Senior AI Research Engineer"
-        }
-      ]
-    },
-    {
-      "company": "Alumni Ventures",
-      "attendee_count": 2,
-      "attendees": [
-        {
-          "name": "Ray Wu",
-          "title": "Founding Managing Partner - AI First Fund"
-        },
-        {
-          "name": "Bryan Liu",
-          "title": "Principal"
-        }
-      ]
-    },
-    {
-      "company": "Regenerative Infrastructure Holdings",
-      "attendee_count": 2,
-      "attendees": [
-        {
-          "name": "Katie Hilborn",
-          "title": "Founder & Managing Director"
-        },
-        {
-          "name": "Christopher Gee",
-          "title": "Co-Founder"
-        }
-      ]
-    },
-    {
-      "company": "Carrier",
+      "company": "Willow",
       "attendee_count": 1,
       "attendees": [
         {
-          "name": "Arun Nandi",
-          "title": "Chief Data and AI Officer"
-        }
-      ]
-    },
-    {
-      "company": "Intel Data Center Group",
-      "attendee_count": 1,
-      "attendees": [
-        {
-          "name": "Anil Nanduri",
-          "title": "VP, AI Products & GTM"
-        }
-      ]
-    },
-    {
-      "company": "Viasat",
-      "attendee_count": 1,
-      "attendees": [
-        {
-          "name": "Sumeet Singh",
-          "title": "Chief Data & AI Officer"
-        }
-      ]
-    },
-    {
-      "company": "United States Air Force",
-      "attendee_count": 1,
-      "attendees": [
-        {
-          "name": "Deepak Sachdeva",
-          "title": "CIO"
-        }
-      ]
-    },
-    {
-      "company": "Star Catcher",
-      "attendee_count": 1,
-      "attendees": [
-        {
-          "name": "Andrew Rush",
-          "title": "President & CEO"
-        }
-      ]
-    },
-    {
-      "company": "Ambarella",
-      "attendee_count": 1,
-      "attendees": [
-        {
-          "name": "Muneyb Minhazuddin",
-          "title": "Customer Growth Officer"
-        }
-      ]
-    },
-    {
-      "company": "Kove",
-      "attendee_count": 1,
-      "attendees": [
-        {
-          "name": "John Overton",
-          "title": "CEO"
-        }
-      ]
-    },
-    {
-      "company": "Cambrian AI Research",
-      "attendee_count": 1,
-      "attendees": [
-        {
-          "name": "Karl Freund",
-          "title": "Founder & Principal Analyst"
-        }
-      ]
-    },
-    {
-      "company": "Arete",
-      "attendee_count": 1,
-      "attendees": [
-        {
-          "name": "Jim Fontanelli",
-          "title": "Founding Partner"
-        }
-      ]
-    },
-    {
-      "company": "Vermillio",
-      "attendee_count": 1,
-      "attendees": [
-        {
-          "name": "Dan Neely",
-          "title": "CEO"
-        }
-      ]
-    },
-    {
-      "company": "McDonalds",
-      "attendee_count": 1,
-      "attendees": [
-        {
-          "name": "Wayne Filin-Matthews",
-          "title": "VP, Data, AI and Enterprise Architecture (Chief Enterprise Architect)"
-        }
-      ]
-    },
-    {
-      "company": "BetterWorks",
-      "attendee_count": 1,
-      "attendees": [
-        {
-          "name": "Maher Hanafi",
-          "title": "SVP, Engineering"
-        }
-      ]
-    },
-    {
-      "company": "GoFundMe",
-      "attendee_count": 1,
-      "attendees": [
-        {
-          "name": "Gauri Manglik",
-          "title": "VP, Head of Legal, Privacy and AI Governance"
-        }
-      ]
-    },
-    {
-      "company": "Grainger",
-      "attendee_count": 1,
-      "attendees": [
-        {
-          "name": "Nathan Frank",
-          "title": "Director, ML Platform & Operations"
-        }
-      ]
-    },
-    {
-      "company": "Prudential Financial",
-      "attendee_count": 1,
-      "attendees": [
-        {
-          "name": "Bhargavi Vepuri",
-          "title": "Director, IT"
-        }
-      ]
-    },
-    {
-      "company": "Bloomreach",
-      "attendee_count": 1,
-      "attendees": [
-        {
-          "name": "Raj De Datta",
-          "title": "Co-Founder & CEO"
-        }
-      ]
-    },
-    {
-      "company": "Protopia AI",
-      "attendee_count": 1,
-      "attendees": [
-        {
-          "name": "Eiman Ebrahimi",
-          "title": "CEO"
-        }
-      ]
-    },
-    {
-      "company": "Teleport",
-      "attendee_count": 1,
-      "attendees": [
-        {
-          "name": "Ev Kontsevoy",
-          "title": "CEO & Co-Founder"
-        }
-      ]
-    },
-    {
-      "company": "Azul Systems",
-      "attendee_count": 1,
-      "attendees": [
-        {
-          "name": "Scott Sellers",
-          "title": "President, CEO & Co-Founder"
-        }
-      ]
-    },
-    {
-      "company": "Monday.com",
-      "attendee_count": 1,
-      "attendees": [
-        {
-          "name": "Omri Bruchim",
-          "title": "Engineering Group Lead - AI"
-        }
-      ]
-    },
-    {
-      "company": "Neuron Factory",
-      "attendee_count": 1,
-      "attendees": [
-        {
-          "name": "Zaid Kahn",
-          "title": "Co-Founder & CEO"
-        }
-      ]
-    },
-    {
-      "company": "Siemens EDA",
-      "attendee_count": 1,
-      "attendees": [
-        {
-          "name": "Juan Carlos Rey",
-          "title": "CTO"
-        }
-      ]
-    },
-    {
-      "company": "Rebellions",
-      "attendee_count": 1,
-      "attendees": [
-        {
-          "name": "Marshall Choy",
-          "title": "Chief Business Officer"
-        }
-      ]
-    },
-    {
-      "company": "Cadence",
-      "attendee_count": 1,
-      "attendees": [
-        {
-          "name": "James Kim",
-          "title": "Chief Architect"
-        }
-      ]
-    },
-    {
-      "company": "Eclypsium",
-      "attendee_count": 1,
-      "attendees": [
-        {
-          "name": "Yuriy Bulygin",
-          "title": "Co-Founder & CEO"
-        }
-      ]
-    },
-    {
-      "company": "Qualitas Semiconductor",
-      "attendee_count": 1,
-      "attendees": [
-        {
-          "name": "Jaeyoung Kim",
-          "title": "CTO"
-        }
-      ]
-    },
-    {
-      "company": "EdgeCortix",
-      "attendee_count": 1,
-      "attendees": [
-        {
-          "name": "Sakyasingha Dasgupta",
-          "title": "Co-Founder & CEO"
-        }
-      ]
-    },
-    {
-      "company": "Vertical Compute",
-      "attendee_count": 1,
-      "attendees": [
-        {
-          "name": "Sylvain Dubois",
-          "title": "Co-Founder & CEO"
-        }
-      ]
-    },
-    {
-      "company": "HyperAccel",
-      "attendee_count": 1,
-      "attendees": [
-        {
-          "name": "Joo-Young Kim",
-          "title": "Founder & CEO"
-        }
-      ]
-    },
-    {
-      "company": "Oracle Cloud Infrastructure",
-      "attendee_count": 1,
-      "attendees": [
-        {
-          "name": "Muhammad Gabr",
-          "title": "Principal Engineer"
-        }
-      ]
-    },
-    {
-      "company": "RackN",
-      "attendee_count": 1,
-      "attendees": [
-        {
-          "name": "Rob Hirschfeld",
-          "title": "CEO"
-        }
-      ]
-    },
-    {
-      "company": "Proteantecs",
-      "attendee_count": 1,
-      "attendees": [
-        {
-          "name": "Alex Burlak",
-          "title": "VP, Engineering & Customer Success"
-        }
-      ]
-    },
-    {
-      "company": "Celesta Capital",
-      "attendee_count": 1,
-      "attendees": [
-        {
-          "name": "David Goldman",
-          "title": "Partner"
-        }
-      ]
-    },
-    {
-      "company": "Salience Labs",
-      "attendee_count": 1,
-      "attendees": [
-        {
-          "name": "Vaysh Kewada",
-          "title": "CEO"
-        }
-      ]
-    },
-    {
-      "company": "Eridu",
-      "attendee_count": 1,
-      "attendees": [
-        {
-          "name": "Drew Perkins",
-          "title": "Co-Founder and CEO"
-        }
-      ]
-    },
-    {
-      "company": "Samtec",
-      "attendee_count": 1,
-      "attendees": [
-        {
-          "name": "Matthew Burns",
-          "title": "Global Director, Technical Marketing"
-        }
-      ]
-    },
-    {
-      "company": "Baya Systems",
-      "attendee_count": 1,
-      "attendees": [
-        {
-          "name": "Nandan Nayampally",
-          "title": "CCO"
-        }
-      ]
-    },
-    {
-      "company": "iPronics",
-      "attendee_count": 1,
-      "attendees": [
-        {
-          "name": "Vivek Sarathy",
-          "title": "VP, Product"
-        }
-      ]
-    },
-    {
-      "company": "Astera Labs",
-      "attendee_count": 1,
-      "attendees": [
-        {
-          "name": "Aanchal Sharma",
-          "title": "Senior Product Director"
-        }
-      ]
-    },
-    {
-      "company": "DataBank",
-      "attendee_count": 1,
-      "attendees": [
-        {
-          "name": "Raul Martynek",
-          "title": "CEO"
-        }
-      ]
-    },
-    {
-      "company": "STACK Infrastructure",
-      "attendee_count": 1,
-      "attendees": [
-        {
-          "name": "Bobby Hollis",
-          "title": "Chief Development Officer"
-        }
-      ]
-    },
-    {
-      "company": "Data4",
-      "attendee_count": 1,
-      "attendees": [
-        {
-          "name": "Fran\u00e7ois Sterin",
-          "title": "COO"
-        }
-      ]
-    },
-    {
-      "company": "JLL",
-      "attendee_count": 1,
-      "attendees": [
-        {
-          "name": "Sean Farney",
-          "title": "VP, Data Center Strategy, Americas"
-        }
-      ]
-    },
-    {
-      "company": "WTG Energy",
-      "attendee_count": 1,
-      "attendees": [
-        {
-          "name": "Charlie Beecherl",
-          "title": "CEO"
-        }
-      ]
-    },
-    {
-      "company": "California ISO",
-      "attendee_count": 1,
-      "attendees": [
-        {
-          "name": "Neil Millar",
-          "title": "VP, Transmission Planning and Infrastructure Development"
-        }
-      ]
-    },
-    {
-      "company": "Intelliflex",
-      "attendee_count": 1,
-      "attendees": [
-        {
-          "name": "Charles L'Ecuyer",
-          "title": "Founder & CEO"
-        }
-      ]
-    },
-    {
-      "company": "Phononic",
-      "attendee_count": 1,
-      "attendees": [
-        {
-          "name": "Matt Langman",
-          "title": "SVP and GM, Infrastructure Solutions"
-        }
-      ]
-    },
-    {
-      "company": "Dell'Oro Group",
-      "attendee_count": 1,
-      "attendees": [
-        {
-          "name": "Alex Cordovil",
-          "title": "Research Director"
-        }
-      ]
-    },
-    {
-      "company": "Power and Data Management",
-      "attendee_count": 1,
-      "attendees": [
-        {
-          "name": "Jake Ring",
-          "title": "Co-Founder, President & CEO"
-        }
-      ]
-    },
-    {
-      "company": "Dynamix Corporation",
-      "attendee_count": 1,
-      "attendees": [
-        {
-          "name": "Andrejka Bernatova",
-          "title": "Founder, Managing Partner, Chairman & CEO"
-        }
-      ]
-    },
-    {
-      "company": "OCP",
-      "attendee_count": 1,
-      "attendees": [
-        {
-          "name": "James Kelly",
-          "title": "VP, Market Intelligence"
-        }
-      ]
-    },
-    {
-      "company": "Silverback Concrete",
-      "attendee_count": 1,
-      "attendees": [
-        {
-          "name": "Frank Stankunas",
-          "title": "President"
-        }
-      ]
-    },
-    {
-      "company": "actnano",
-      "attendee_count": 1,
-      "attendees": [
-        {
-          "name": "Taymur Ahmad",
-          "title": "Founder & CEO"
-        }
-      ]
-    },
-    {
-      "company": "Archetype AI",
-      "attendee_count": 1,
-      "attendees": [
-        {
-          "name": "Ivan Poupyrev",
-          "title": "CEO"
-        }
-      ]
-    },
-    {
-      "company": "Intel Client Computing Group",
-      "attendee_count": 1,
-      "attendees": [
-        {
-          "name": "Nagesh Puppala",
-          "title": "General Manager - Physical AI & Robotics"
-        }
-      ]
-    },
-    {
-      "company": "Formerly Google DeepMind",
-      "attendee_count": 1,
-      "attendees": [
-        {
-          "name": "Pannag Sanketi",
-          "title": "Ex-Tech Lead Manager - Robotics"
-        }
-      ]
-    },
-    {
-      "company": "General Robotics",
-      "attendee_count": 1,
-      "attendees": [
-        {
-          "name": "Sai Vemprala",
+          "name": "Lawrence Liu",
           "title": "Co-Founder & CTO"
         }
       ]
     },
     {
-      "company": "Novelis",
+      "company": "Boltz",
       "attendee_count": 1,
       "attendees": [
         {
-          "name": "Senthil Ramamurthy",
-          "title": "Engineering Lead, Physical AI"
+          "name": "Jeremy Wohlwend",
+          "title": "Co-Founder"
         }
       ]
     },
     {
-      "company": "Shield AI",
+      "company": "Conviction",
       "attendee_count": 1,
       "attendees": [
         {
-          "name": "Miguel Campo",
-          "title": "Chief Architect"
+          "name": "Sarah Guo",
+          "title": "Founder & Partner"
         }
       ]
     },
     {
-      "company": "GrayMatter Robotics",
+      "company": "Aston Martin Aramco Formula One",
       "attendee_count": 1,
       "attendees": [
         {
-          "name": "Satyandra Gupta",
-          "title": "Co-Founder & Chief Scientist"
+          "name": "Eric Ernst",
+          "title": "Commercial Technology Ambassador"
         }
       ]
     },
     {
-      "company": "Intuition Robotics",
+      "company": "Grammarly",
       "attendee_count": 1,
       "attendees": [
         {
-          "name": "Assaf Gad",
-          "title": "Chief Strategy Officer & General Manager"
+          "name": "Christoph St\u00fcber",
+          "title": "Software Engineer - ML Platform"
         }
       ]
     },
     {
-      "company": "Quadric",
+      "company": "Walden Robotics",
       "attendee_count": 1,
       "attendees": [
         {
-          "name": "Nigel Drego",
-          "title": "CTO & Co-Founder"
+          "name": "Adrien Gaidon",
+          "title": "Co-founder and Chief Strategy Officer"
         }
       ]
     },
     {
-      "company": "Xaba",
+      "company": "JPMorganChase",
       "attendee_count": 1,
       "attendees": [
         {
-          "name": "Massimiliano Mouruzzi",
-          "title": "CEO"
+          "name": "Anand Rajagopalan",
+          "title": "Managing Director - Head of AI Infrastructure Platform"
         }
       ]
     },
     {
-      "company": "Bedrock Robotics",
+      "company": "Improbability",
       "attendee_count": 1,
       "attendees": [
         {
-          "name": "Boris Sofman",
-          "title": "Co-Founder & CEO"
-        }
-      ]
-    },
-    {
-      "company": "BAM Corner Point",
-      "attendee_count": 1,
-      "attendees": [
-        {
-          "name": "Rashmi Gopinath",
-          "title": "Co-Founder & Managing Partner"
-        }
-      ]
-    },
-    {
-      "company": "Path Robotics",
-      "attendee_count": 1,
-      "attendees": [
-        {
-          "name": "Heather Carroll",
-          "title": "CRO"
-        }
-      ]
-    },
-    {
-      "company": "Johnson & Johnson MedTech",
-      "attendee_count": 1,
-      "attendees": [
-        {
-          "name": "Ali Afzal",
-          "title": "Senior Manager - Ottava Robotic System"
-        }
-      ]
-    },
-    {
-      "company": "Hitachi Ventures",
-      "attendee_count": 1,
-      "attendees": [
-        {
-          "name": "Gayathri Radhakrishnan",
-          "title": "Partner"
-        }
-      ]
-    },
-    {
-      "company": "Deplace",
-      "attendee_count": 1,
-      "attendees": [
-        {
-          "name": "Pedro Milcent",
-          "title": "Co-Founder & CEO"
-        }
-      ]
-    },
-    {
-      "company": "AiM Medical Robotics",
-      "attendee_count": 1,
-      "attendees": [
-        {
-          "name": "Dave Saunders",
-          "title": "VP Product Engineering"
-        }
-      ]
-    },
-    {
-      "company": "LAM Capital",
-      "attendee_count": 1,
-      "attendees": [
-        {
-          "name": "Yvonne Lutsch",
-          "title": "Investment Director"
-        }
-      ]
-    },
-    {
-      "company": "Venrock",
-      "attendee_count": 1,
-      "attendees": [
-        {
-          "name": "Ethan Batraski",
-          "title": "Partner"
-        }
-      ]
-    },
-    {
-      "company": "Niantic Spatial",
-      "attendee_count": 1,
-      "attendees": [
-        {
-          "name": "Inhi Cho Suh",
-          "title": "CEO"
-        }
-      ]
-    },
-    {
-      "company": "SewerAI",
-      "attendee_count": 1,
-      "attendees": [
-        {
-          "name": "Abhinoor Dhull",
-          "title": "VP of Operations"
-        }
-      ]
-    },
-    {
-      "company": "CloudRift",
-      "attendee_count": 1,
-      "attendees": [
-        {
-          "name": "Dmitry Trifonov",
-          "title": "CEO"
-        }
-      ]
-    },
-    {
-      "company": "AllSpice.io",
-      "attendee_count": 1,
-      "attendees": [
-        {
-          "name": "Valentina Ratner",
-          "title": "Co-Founder & CEO"
-        }
-      ]
-    },
-    {
-      "company": "BAND",
-      "attendee_count": 1,
-      "attendees": [
-        {
-          "name": "Arick Goomanovsky",
-          "title": "CEO & Co-Founder"
-        }
-      ]
-    },
-    {
-      "company": "American Chemical Society",
-      "attendee_count": 1,
-      "attendees": [
-        {
-          "name": "Jofia Jose Prakash",
-          "title": "Enterprise Architect - AI"
-        }
-      ]
-    },
-    {
-      "company": "Eridu AI",
-      "attendee_count": 1,
-      "attendees": [
-        {
-          "name": "Omar Hassen",
-          "title": "Co-Founder & Chief Product Officer"
-        }
-      ]
-    },
-    {
-      "company": "GUC",
-      "attendee_count": 1,
-      "attendees": [
-        {
-          "name": "Luke Huang",
-          "title": "Associate Director of Marketing"
-        }
-      ]
-    },
-    {
-      "company": "Omen AI",
-      "attendee_count": 1,
-      "attendees": [
-        {
-          "name": "Zach Laberge",
-          "title": "Founder & CEO"
-        }
-      ]
-    },
-    {
-      "company": "DIMAAG",
-      "attendee_count": 1,
-      "attendees": [
-        {
-          "name": "Ian Wright",
-          "title": "Chief Technology Officer"
-        }
-      ]
-    },
-    {
-      "company": "Lightbits Labs",
-      "attendee_count": 1,
-      "attendees": [
-        {
-          "name": "Arthur Rasmusson",
-          "title": "Director of AI Architecture"
-        }
-      ]
-    },
-    {
-      "company": "Go!Foton",
-      "attendee_count": 1,
-      "attendees": [
-        {
-          "name": "Brian Berdan",
-          "title": "Senior Product Manager"
-        }
-      ]
-    },
-    {
-      "company": "Yasp",
-      "attendee_count": 1,
-      "attendees": [
-        {
-          "name": "Stefan Krassin",
-          "title": "Co-Founder & CEO"
-        }
-      ]
-    },
-    {
-      "company": "Superlinked",
-      "attendee_count": 1,
-      "attendees": [
-        {
-          "name": "Daniel Svonava",
-          "title": "Co-Founder & CEO"
-        }
-      ]
-    },
-    {
-      "company": "Scale Venture Partners",
-      "attendee_count": 1,
-      "attendees": [
-        {
-          "name": "Jeremy Kaufmann",
-          "title": "Partner"
-        }
-      ]
-    },
-    {
-      "company": "Cowboy Space Corp.",
-      "attendee_count": 1,
-      "attendees": [
-        {
-          "name": "Joe Yaffe",
-          "title": "COO & Chief Legal Officer"
-        }
-      ]
-    },
-    {
-      "company": "Tinder",
-      "attendee_count": 1,
-      "attendees": [
-        {
-          "name": "Vinay Kuruvila",
-          "title": "CTO"
-        }
-      ]
-    },
-    {
-      "company": "Stanford",
-      "attendee_count": 1,
-      "attendees": [
-        {
-          "name": "Daniel Wu",
-          "title": "Course Facilitator"
-        }
-      ]
-    },
-    {
-      "company": "Samsung Semiconductor",
-      "attendee_count": 1,
-      "attendees": [
-        {
-          "name": "In Dong Kim",
-          "title": "Vice President, DRAM Product Planning and Business Enabling"
-        }
-      ]
-    },
-    {
-      "company": "iMiller PR",
-      "attendee_count": 1,
-      "attendees": [
-        {
-          "name": "Ilissa Miller",
-          "title": "Founder & CEO"
-        }
-      ]
-    },
-    {
-      "company": "DYNANIC",
-      "attendee_count": 1,
-      "attendees": [
-        {
-          "name": "Lukas Kekely",
-          "title": "CTO & Co-Founder"
-        }
-      ]
-    },
-    {
-      "company": "The Bolden Group",
-      "attendee_count": 1,
-      "attendees": [
-        {
-          "name": "Christian Bolden",
-          "title": "Founder & Principal"
-        }
-      ]
-    },
-    {
-      "company": "Amazon AGI Labs",
-      "attendee_count": 1,
-      "attendees": [
-        {
-          "name": "Archana Suregaonkar",
-          "title": "Member of Technical Staff"
-        }
-      ]
-    },
-    {
-      "company": "Tiiny AI",
-      "attendee_count": 1,
-      "attendees": [
-        {
-          "name": "Samar B",
-          "title": "GTM Director"
-        }
-      ]
-    },
-    {
-      "company": "Silicon Catalyst Ventures",
-      "attendee_count": 1,
-      "attendees": [
-        {
-          "name": "Laura Swann",
-          "title": "General Partner"
-        }
-      ]
-    },
-    {
-      "company": "reFaced",
-      "attendee_count": 1,
-      "attendees": [
-        {
-          "name": "Rinzin Wangmo",
-          "title": "Co-Founder & CEO"
+          "name": "Lavanya Shukla",
+          "title": "Managing Partner"
         }
       ]
     }
   ],
   "opportunities": [
     {
-      "account": "Microsoft",
+      "account": "CoreWeave",
       "tier": "Tier 1",
-      "owner": "Greg Mark",
-      "opportunity_name": "Microsoft GPU | AI internal | 2025-12-15",
+      "owner": "Sean Coughlin",
+      "opportunity_name": "CoreWeave GPU | New Business | 2026-01-16",
       "stage": "03 - Technical Validation",
-      "amount": 300000.0,
-      "close_date": "2026-12-31",
-      "lead_source": "Event",
+      "amount": 550000.0,
+      "close_date": "2026-08-28",
+      "lead_source": "Sales",
       "primary_campaign_raw": null,
       "event_family": null,
-      "opp_id": "006TV00000SnzDVYAZ",
-      "sfdc_link": "https://clockworksystems.my.salesforce.com/lightning/r/Opportunity/006TV00000SnzDVYAZ/view"
+      "opp_id": "006TV00000U4duMYAR",
+      "sfdc_link": "https://clockworksystems.my.salesforce.com/lightning/r/Opportunity/006TV00000U4duMYAR/view"
+    },
+    {
+      "account": "IBM",
+      "tier": "Tier 2",
+      "owner": "Sean Coughlin",
+      "opportunity_name": "IBM GPU | New Business | 2026-03-25",
+      "stage": "00 - Prospecting",
+      "amount": 200000.0,
+      "close_date": "2026-12-02",
+      "lead_source": "Sales",
+      "primary_campaign_raw": null,
+      "event_family": null,
+      "opp_id": "006TV00000Wz3crYAB",
+      "sfdc_link": "https://clockworksystems.my.salesforce.com/lightning/r/Opportunity/006TV00000Wz3crYAB/view"
     },
     {
       "account": "Nvidia",
@@ -4406,160 +790,6 @@
       "event_family": null,
       "opp_id": "006TV00000LLYgvYAH",
       "sfdc_link": "https://clockworksystems.my.salesforce.com/lightning/r/Opportunity/006TV00000LLYgvYAH/view"
-    },
-    {
-      "account": "Lambda Labs",
-      "tier": "Tier 1",
-      "owner": "Greg Mark",
-      "opportunity_name": "Lambda GPU | New Business | 2025-09-16",
-      "stage": "01 - Qualified",
-      "amount": 200000.0,
-      "close_date": "2026-12-30",
-      "lead_source": "Sales",
-      "primary_campaign_raw": null,
-      "event_family": null,
-      "opp_id": "006TV00000OdWjnYAF",
-      "sfdc_link": "https://clockworksystems.my.salesforce.com/lightning/r/Opportunity/006TV00000OdWjnYAF/view"
-    },
-    {
-      "account": "Mirantis",
-      "tier": "Tier 3",
-      "owner": "Greg Mark",
-      "opportunity_name": "Mirantis GPU | New Business | 2026-08-03",
-      "stage": "00 - Prospecting",
-      "amount": 200000.0,
-      "close_date": "2026-11-30",
-      "lead_source": "Sales",
-      "primary_campaign_raw": null,
-      "event_family": null,
-      "opp_id": "006TV00000cj5vJYAQ",
-      "sfdc_link": "https://clockworksystems.my.salesforce.com/lightning/r/Opportunity/006TV00000cj5vJYAQ/view"
-    },
-    {
-      "account": "Microsoft",
-      "tier": "Tier 1",
-      "owner": "Greg Mark",
-      "opportunity_name": "Microsoft GPU | New Business | 2026-08-21",
-      "stage": "00 - Prospecting",
-      "amount": 200000.0,
-      "close_date": "2026-12-31",
-      "lead_source": "Sales",
-      "primary_campaign_raw": null,
-      "event_family": null,
-      "opp_id": "006TV00000dWYxmYAG",
-      "sfdc_link": "https://clockworksystems.my.salesforce.com/lightning/r/Opportunity/006TV00000dWYxmYAG/view"
-    },
-    {
-      "account": "Crusoe",
-      "tier": "Tier 1",
-      "owner": "Greg Mark",
-      "opportunity_name": "Crusoe | New Business | 2024-11-22",
-      "stage": "03 - Technical Validation",
-      "amount": 200000.0,
-      "close_date": "2026-12-30",
-      "lead_source": "Event",
-      "primary_campaign_raw": "Speakers | Pre-Conf | RAISE 2025",
-      "event_family": "RAISE 2025 (Conference)",
-      "opp_id": "006TV00000CRnybYAD",
-      "sfdc_link": "https://clockworksystems.my.salesforce.com/lightning/r/Opportunity/006TV00000CRnybYAD/view"
-    },
-    {
-      "account": "eBay",
-      "tier": "Tier 1",
-      "owner": "Greg Mark",
-      "opportunity_name": "eBay GPU | New Business | 2025-12-01",
-      "stage": "01 - Qualified",
-      "amount": 150000.0,
-      "close_date": "2026-12-30",
-      "lead_source": "Sales",
-      "primary_campaign_raw": null,
-      "event_family": null,
-      "opp_id": "006TV00000SEYUlYAP",
-      "sfdc_link": "https://clockworksystems.my.salesforce.com/lightning/r/Opportunity/006TV00000SEYUlYAP/view"
-    },
-    {
-      "account": "LinkedIn",
-      "tier": "Tier 1",
-      "owner": "Greg Mark",
-      "opportunity_name": "LinkedIn GPU | New Business | 2025-12-08",
-      "stage": "01 - Qualified",
-      "amount": 150000.0,
-      "close_date": "2026-11-30",
-      "lead_source": "Sales",
-      "primary_campaign_raw": null,
-      "event_family": null,
-      "opp_id": "006TV00000SUtzpYAD",
-      "sfdc_link": "https://clockworksystems.my.salesforce.com/lightning/r/Opportunity/006TV00000SUtzpYAD/view"
-    },
-    {
-      "account": "Argonne National Laboratory",
-      "tier": "Tier 2",
-      "owner": "Chris Bowen",
-      "opportunity_name": "Argonne National Laboratory GPU | New Business | 2026-05-21",
-      "stage": "01 - Qualified",
-      "amount": 150000.0,
-      "close_date": "2026-11-21",
-      "lead_source": "Sales",
-      "primary_campaign_raw": null,
-      "event_family": null,
-      "opp_id": "006TV00000ZROq6YAH",
-      "sfdc_link": "https://clockworksystems.my.salesforce.com/lightning/r/Opportunity/006TV00000ZROq6YAH/view"
-    },
-    {
-      "account": "Core42",
-      "tier": "Tier 1",
-      "owner": "Sean Coughlin",
-      "opportunity_name": "Core42 | New Business | 2025-07-18",
-      "stage": "01 - Qualified",
-      "amount": 150000.0,
-      "close_date": "2026-09-29",
-      "lead_source": "Sales",
-      "primary_campaign_raw": "Booth Visitors | Post-Conf | RAISE 2025",
-      "event_family": "RAISE 2025 (Conference)",
-      "opp_id": "006TV00000MB5MIYA1",
-      "sfdc_link": "https://clockworksystems.my.salesforce.com/lightning/r/Opportunity/006TV00000MB5MIYA1/view"
-    },
-    {
-      "account": "Dell Technologies",
-      "tier": "Tier 1",
-      "owner": "Sean Coughlin",
-      "opportunity_name": "Dell GPU | Partnerships | 2025-10-20",
-      "stage": "03 - Technical Validation",
-      "amount": 75000.0,
-      "close_date": "2026-03-31",
-      "lead_source": "Executive Referral",
-      "primary_campaign_raw": null,
-      "event_family": null,
-      "opp_id": "006TV00000QHtKTYA1",
-      "sfdc_link": "https://clockworksystems.my.salesforce.com/lightning/r/Opportunity/006TV00000QHtKTYA1/view"
-    },
-    {
-      "account": "Meta",
-      "tier": "Tier 1",
-      "owner": "Greg Mark",
-      "opportunity_name": "Meta GPU | New Business | 2025-09-15",
-      "stage": "00 - Prospecting",
-      "amount": null,
-      "close_date": "2026-12-31",
-      "lead_source": "Sales",
-      "primary_campaign_raw": "PyTorch 2025 | Booth Leads | 2025-10-22",
-      "event_family": "PyTorch 2025 (Conference)",
-      "opp_id": "006TV00000OahgYYAR",
-      "sfdc_link": "https://clockworksystems.my.salesforce.com/lightning/r/Opportunity/006TV00000OahgYYAR/view"
-    },
-    {
-      "account": "AWS",
-      "tier": "Tier 2",
-      "owner": "Greg Mark",
-      "opportunity_name": "AWS GPU | New Business | 2025-12-01",
-      "stage": "00 - Prospecting",
-      "amount": null,
-      "close_date": "2026-12-31",
-      "lead_source": "Sales",
-      "primary_campaign_raw": null,
-      "event_family": null,
-      "opp_id": "006TV00000SEU7lYAH",
-      "sfdc_link": "https://clockworksystems.my.salesforce.com/lightning/r/Opportunity/006TV00000SEU7lYAH/view"
     }
   ]
 }

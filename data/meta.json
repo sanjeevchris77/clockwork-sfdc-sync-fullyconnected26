@@ -1,8 +1,13 @@
 {
   "campaign_ids": [
-    "701TV00000tqIKgYAM",
-    "701TV00000tqT6JYAU",
-    "701TV00000tqTXjYAM"
+    "701TV00000tqakTYAQ",
+    "701TV00000tqd7FYAQ",
+    "701TV00000tqZZtYAM",
+    "701TV00000tqfXGYAY",
+    "701TV00000tqeCzYAI",
+    "701TV00000tqWDsYAM",
+    "701TV00000tqGcAYAU",
+    "701TV00000tqX1qYAE"
   ],
   "rep_names": [
     "Sean Coughlin",
@@ -11,19 +16,19 @@
     "Chris Bowen"
   ],
   "default_opp_amount": 200000,
-  "lead_count": 368,
-  "opp_count": 33,
-  "distinct_companies": 256,
-  "companies_already_engaged": 107,
-  "companies_net_new": 149,
-  "potential_pipeline_real_open_opportunity_total": 6575000.0,
-  "potential_pipeline_estimated_total": 47400000,
-  "potential_pipeline_total": 53975000.0,
+  "lead_count": 111,
+  "opp_count": 16,
+  "distinct_companies": 98,
+  "companies_already_engaged": 50,
+  "companies_net_new": 48,
+  "potential_pipeline_real_open_opportunity_total": 4175000.0,
+  "potential_pipeline_estimated_total": 16800000,
+  "potential_pipeline_total": 20975000.0,
   "abm_tier_counts": {
-    "Tier 1": 42,
-    "Tier 2": 23,
-    "Tier 3": 20,
-    "Tier 4": 19
+    "Tier 1": 18,
+    "Tier 2": 12,
+    "Tier 3": 6,
+    "Tier 4": 5
   },
-  "accounts_without_abm_tier": 152
+  "accounts_without_abm_tier": 57
 }
